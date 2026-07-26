@@ -128,10 +128,18 @@ jobs:
     # Даже если часть шардов упала, публикуем то, что проверилось.
     if: always() && needs.collect.result == 'success'
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 20
 
     steps:
       - uses: actions/checkout@v4
+
+      - uses: actions/setup-go@v5
+        with:
+          go-version: ${{ env.GO_VERSION }}
+          cache: true
+
+      - name: Сборка
+        run: go build -o checker ./cmd/checker
 
       - uses: actions/download-artifact@v4
         with:
@@ -139,7 +147,39 @@ jobs:
           path: results/
           merge-multiple: true
 
+      - name: Публикация подписок
+        run: |
+          ./checker publish \
+            --results results \
+            --out . \
+            --history state/history.jsonl.gz \
+            --min-ewma 0.6 \
+            --min-runs 2 \
+            --max-per-ip 5
+
+      - name: Коммит результатов
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A vpn.txt vpn_base64.txt vpn_renamed.txt vpn_renamed_base64.txt \
+                     bobi_vpn.txt bobi_vpn_base64.txt bobi_vpn_lite.txt bobi_vpn_top.txt \
+                     vpn_report.json countries/ state/ 2>/dev/null || true
+          if git diff --staged --quiet; then
+            echo "Изменений нет."
+            exit 0
+          fi
+          keys=$(grep -c '://' bobi_vpn.txt || echo 0)
+          git commit -m "🐶 Обновление подписок: $keys ключей — $(date -u +'%Y-%m-%d %H:%M UTC')"
+          # Параллельный прогон мог успеть запушить: подтягиваем и повторяем.
+          for i in 1 2 3; do
+            git pull --rebase --autostash origin main && git push origin HEAD:main && exit 0
+            echo "Попытка $i не удалась, повтор..."
+            sleep 5
+          done
+          exit 1
+
       - name: Сводка прогона
+        if: always()
         run: |
           echo "## Результаты прогона" >> "$GITHUB_STEP_SUMMARY"
           echo "" >> "$GITHUB_STEP_SUMMARY"

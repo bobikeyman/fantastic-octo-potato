@@ -45,6 +45,11 @@ func main() {
 			fmt.Fprintln(os.Stderr, "ошибка:", err)
 			os.Exit(1)
 		}
+	case "publish":
+		if err := cmdPublish(os.Args[2:]); err != nil {
+			fmt.Fprintln(os.Stderr, "ошибка:", err)
+			os.Exit(1)
+		}
 	case "version", "-v", "--version":
 		fmt.Println("bobi-checker", version)
 	case "help", "-h", "--help":
@@ -63,11 +68,13 @@ func usage() {
   checker parse   --file <путь> [--stats] [--rejected] [--out <файл.json>]
   checker collect [--subs subscriptions.txt] [--out shards] [--shards 8]
   checker check   --shard <shard-N.json> [--out <результат.json>] [--limit N]
+  checker publish [--results results] [--out .] [--history state/history.jsonl.gz]
   checker version
 
   parse    офлайн: разбор, валидация и дедуп ключей из файла
   collect  загрузка подписок и нарезка работы на шарды (нужна сеть)
   check    проверка нод шарда через Xray-core (нужна сеть)
+  publish  слияние результатов, история репутации, файлы подписок
 `)
 }
 
