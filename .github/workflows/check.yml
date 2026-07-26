@@ -1,0 +1,172 @@
+name: Проверка ключей
+
+on:
+  schedule:
+    # Каждые 3 часа: 00, 03, 06, 09, 12, 15, 18, 21 МСК (UTC+3)
+    - cron: '0 21,0,3,6,9,12,15,18 * * *'
+  workflow_dispatch:
+    inputs:
+      shards:
+        description: 'На сколько частей резать работу'
+        default: '8'
+      limit:
+        description: 'Проверить только первые N нод в шарде (0 — все)'
+        default: '0'
+      min_speed:
+        description: 'Минимальная скорость, KB/s'
+        default: '200'
+
+permissions:
+  contents: write
+
+# Прогоны не должны драться за push: новый отменяет предыдущий.
+concurrency:
+  group: checker
+  cancel-in-progress: true
+
+env:
+  GO_VERSION: '1.26'
+
+jobs:
+  collect:
+    name: Сбор подписок
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    outputs:
+      shards: ${{ steps.plan.outputs.shards }}
+      matrix: ${{ steps.plan.outputs.matrix }}
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-go@v5
+        with:
+          go-version: ${{ env.GO_VERSION }}
+          cache: true
+
+      - name: Сборка
+        run: go build -o checker ./cmd/checker
+
+      - name: Загрузка подписок и нарезка на шарды
+        env:
+          SUBSCRIPTION_URLS: ${{ secrets.SUBSCRIPTION_URLS }}
+        run: |
+          ./checker collect \
+            --subs subscriptions.txt \
+            --out shards \
+            --shards "${{ inputs.shards || 8 }}"
+
+      - name: План матрицы
+        id: plan
+        run: |
+          shards="${{ inputs.shards || 8 }}"
+          matrix=$(seq 0 $((shards - 1)) | jq -R . | jq -sc .)
+          echo "shards=$shards" >> "$GITHUB_OUTPUT"
+          echo "matrix=$matrix" >> "$GITHUB_OUTPUT"
+          echo "Шардов: $shards -> $matrix"
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shards
+          path: shards/
+          retention-days: 1
+
+  check:
+    name: Проверка шарда ${{ matrix.shard }}
+    needs: collect
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    strategy:
+      fail-fast: false
+      matrix:
+        shard: ${{ fromJSON(needs.collect.outputs.matrix) }}
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-go@v5
+        with:
+          go-version: ${{ env.GO_VERSION }}
+          cache: true
+
+      - name: Сборка
+        run: go build -o checker ./cmd/checker
+
+      - uses: actions/download-artifact@v4
+        with:
+          name: shards
+          path: shards/
+
+      # Лимит открытых файлов: каждая проверка держит соединения,
+      # при полутора сотнях параллельных проверок стандартных 1024 мало.
+      - name: Поднять лимит дескрипторов
+        run: ulimit -n 65535 || true
+
+      - name: Проверка
+        run: |
+          mkdir -p results
+          ./checker check \
+            --shard "shards/shard-${{ matrix.shard }}.json" \
+            --out "results/result-${{ matrix.shard }}.json" \
+            --min-speed "${{ inputs.min_speed || 200 }}" \
+            --limit "${{ inputs.limit || 0 }}" \
+            --quiet
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: result-${{ matrix.shard }}
+          path: results/
+          retention-days: 1
+
+  publish:
+    name: Публикация
+    needs: [collect, check]
+    # Даже если часть шардов упала, публикуем то, что проверилось.
+    if: always() && needs.collect.result == 'success'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: result-*
+          path: results/
+          merge-multiple: true
+
+      - name: Сводка прогона
+        run: |
+          echo "## Результаты прогона" >> "$GITHUB_STEP_SUMMARY"
+          echo "" >> "$GITHUB_STEP_SUMMARY"
+          if ! ls results/*.json >/dev/null 2>&1; then
+            echo "Ни один шард не отдал результатов." >> "$GITHUB_STEP_SUMMARY"
+            exit 0
+          fi
+          total=$(jq -s '[.[].checked] | add' results/*.json)
+          ok=$(jq -s '[.[].results[] | select(.ok)] | length' results/*.json)
+          echo "| Метрика | Значение |" >> "$GITHUB_STEP_SUMMARY"
+          echo "|---|---:|" >> "$GITHUB_STEP_SUMMARY"
+          echo "| Проверено | $total |" >> "$GITHUB_STEP_SUMMARY"
+          echo "| Рабочих | $ok |" >> "$GITHUB_STEP_SUMMARY"
+          echo "" >> "$GITHUB_STEP_SUMMARY"
+          echo "### Отсев по стадиям" >> "$GITHUB_STEP_SUMMARY"
+          echo "" >> "$GITHUB_STEP_SUMMARY"
+          echo "| Стадия | Ключей |" >> "$GITHUB_STEP_SUMMARY"
+          echo "|---|---:|" >> "$GITHUB_STEP_SUMMARY"
+          jq -sr '[.[].results[]] | group_by(.stage) | map({stage: .[0].stage, n: length})
+                  | sort_by(-.n)[] | "| \(.stage) | \(.n) |"' results/*.json >> "$GITHUB_STEP_SUMMARY"
+          echo "" >> "$GITHUB_STEP_SUMMARY"
+          echo "### Страны" >> "$GITHUB_STEP_SUMMARY"
+          echo "" >> "$GITHUB_STEP_SUMMARY"
+          jq -sr '[.[].results[] | select(.ok)] | group_by(.exit_country)
+                  | map({c: .[0].exit_country, n: length}) | sort_by(-.n) | .[:15][]
+                  | "- \(.c): \(.n)"' results/*.json >> "$GITHUB_STEP_SUMMARY"
+
+      # Генерация подписок появится следующим этапом; пока сохраняем сырые
+      # результаты как артефакт, чтобы прогон был проверяемым.
+      - uses: actions/upload-artifact@v4
+        with:
+          name: results-merged
+          path: results/
+          retention-days: 7

@@ -1,0 +1,54 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+    paths-ignore:
+      - '**.md'
+      - 'countries/**'
+      - 'bobi_vpn*.txt'
+      - 'vpn*.txt'
+      - 'vpn_report.json'
+      - 'state/**'
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    name: Сборка и тесты
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-go@v5
+        with:
+          go-version: '1.26'
+          cache: true
+
+      - name: gofmt
+        run: |
+          unformatted=$(gofmt -l .)
+          if [ -n "$unformatted" ]; then
+            echo "Не отформатировано:"
+            echo "$unformatted"
+            exit 1
+          fi
+
+      - name: go vet
+        run: go vet ./...
+
+      # Гонки ловятся только здесь: локально race-детектор требует cgo,
+      # которого на машине разработки может не быть.
+      - name: Тесты с детектором гонок
+        run: go test -race -timeout 20m ./...
+
+      - name: Сборка
+        run: go build -o checker ./cmd/checker
+
+      - name: Проверка режима parse на корпусе
+        run: ./checker parse --file testdata/corpus.txt --stats
