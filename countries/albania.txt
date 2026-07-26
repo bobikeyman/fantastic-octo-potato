@@ -1,0 +1,9 @@
+#profile-update-interval: 1
+#profile-title: 🇦🇱 BobiVPN Albania
+#subscription-userinfo: upload=0; download=0; total=107374182400; expire=0
+#support-url: https://bobivpn.netlify.app/
+#profile-web-page-url: https://bobivpn.netlify.app/
+#announce: base64:8J+HpvCfh7EgQm9iaVZQTiDigJQgQWxiYW5pYQrimqEgMiDQv9GA0L7QstC10YDQtdC90L3Ri9GFINGB0LXRgNCy0LXRgNC+0LI=
+
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpXUjVIbzh2VnFuRGFINDlXTGg5OE5j@130.49.189.158:10792?#%F0%9F%87%A6%F0%9F%87%B1%20Albania%20%7C%20Global%20Connectivity%20Sol%E2%80%A6%201
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpGWHBEZjdXVjZsZkQ2bjlocHo3SEYy@157.22.240.141:57925?#%F0%9F%87%A6%F0%9F%87%B1%20Albania%20%7C%20Global%20Connectivity%20Sol%E2%80%A6%202
