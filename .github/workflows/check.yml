@@ -178,7 +178,9 @@ jobs:
           fi
           git status --short
 
-          keys=$(grep -c '://' bobi_vpn.txt 2>/dev/null || echo 0)
+          # Считаем только ссылки: в заголовке Happ есть support-url и
+          # profile-web-page-url, которые под шаблон «://» тоже подходят.
+          keys=$(grep -cE '^(vless|vmess|trojan|ss)://' bobi_vpn.txt 2>/dev/null || echo 0)
           if [ "$keys" -gt 0 ]; then
             msg="🐶 Обновление подписок: $keys ключей"
           else

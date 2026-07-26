@@ -144,35 +144,156 @@ func dedupe(ips []string) []string {
 	return out
 }
 
-// Юридические суффиксы и служебные слова только занимают место в подписи ключа.
-var providerNoise = []string{
-	" LLC", " Ltd.", " Ltd", " Limited", " Inc.", " Inc", " GmbH", " B.V.",
-	" S.A.", " SAS", " SARL", " AB", " AS", " Oy", " Corporation", " Corp.",
-	" Corp", " Co.", " Company", " Networks", " Network", " Hosting",
-	" Technologies", " Technology", " Solutions", " Services", " Group",
+// Организационно-правовые формы. Идут и в начале имени, и в конце —
+// зависит от страны регистрации.
+var legalForms = []string{
+	"llc", "ltd", "limited", "inc", "gmbh", "bv", "b.v", "sa", "s.a", "sas",
+	"sarl", "srl", "ab", "oy", "as", "a.s", "plc", "pte", "pvt", "corp",
+	"corporation", "co", "company", "jsc", "pjsc", "ojsc", "cjsc", "zao",
+	"ooo", "oao", "ao", "ip", "spa", "sp", "kg", "ug", "nv", "n.v", "aps",
+	"doo", "d.o.o", "sh.p.k", "eood", "ead", "sro", "s.r.o",
 }
 
+var legalFormSet = func() map[string]struct{} {
+	m := make(map[string]struct{}, len(legalForms))
+	for _, f := range legalForms {
+		m[f] = struct{}{}
+	}
+	return m
+}()
+
+// Слова, которые есть почти у каждого хостера и ничего не различают.
+var genericWords = map[string]struct{}{
+	"networks": {}, "network": {}, "hosting": {}, "technologies": {},
+	"technology": {}, "solutions": {}, "solution": {}, "services": {},
+	"service": {}, "group": {}, "holding": {}, "international": {},
+	"communications": {}, "communication": {}, "telecom": {},
+	"telecommunications": {}, "systems": {}, "system": {}, "internet": {},
+	"datacenter": {}, "data": {}, "center": {}, "cloud": {}, "host": {},
+	"provider": {}, "global": {}, "digital": {}, "online": {}, "web": {},
+	"computer": {}, "computing": {}, "infrastructure": {}, "enterprise": {},
+	"company": {}, "corp": {},
+	// Предлоги и артикли: без них имя не теряет смысла, но занимает
+	// заметно меньше места.
+	"of": {}, "the": {}, "and": {}, "for": {}, "de": {}, "du": {},
+}
+
+// cleanProvider приводит сырое имя из ip-api к короткой подписи.
+//
+// Сырые значения приходят в самом разном виде: «JSC "TIMEWEB"», «Selectel»,
+// «AS13335 Cloudflare, Inc.», иногда — вообще URL геофида. Без нормализации
+// один и тот же провайдер попадает в список под разными именами и получает
+// независимую нумерацию.
 func cleanProvider(s string) string {
 	s = strings.TrimSpace(s)
-	if s == "" {
+	if s == "" || looksLikeURL(s) {
 		return ""
 	}
-	// В поле as приезжает вида "AS13335 Cloudflare, Inc." — номер отбрасываем.
-	if strings.HasPrefix(s, "AS") {
-		if _, rest, ok := strings.Cut(s, " "); ok {
-			s = rest
+
+	// В поле as приезжает «AS13335 Cloudflare, Inc.» — номер отбрасываем.
+	if rest, ok := strings.CutPrefix(s, "AS"); ok {
+		if head, tail, found := strings.Cut(rest, " "); found && isDigits(head) {
+			s = tail
 		}
 	}
-	for _, noise := range providerNoise {
-		s = strings.TrimSuffix(s, noise)
-		s = strings.TrimSuffix(s, strings.ToUpper(noise))
-	}
-	s = strings.Trim(s, " ,.-")
 
-	// Длинные имена ломают вёрстку списка в клиентах.
-	const maxLen = 24
-	if len([]rune(s)) > maxLen {
-		s = string([]rune(s)[:maxLen-1]) + "…"
+	// Кавычки вокруг названия ставят в основном в СНГ: «JSC "TIMEWEB"».
+	s = strings.Map(func(r rune) rune {
+		switch r {
+		case '"', '«', '»', '\'', '`', '“', '”':
+			return -1
+		}
+		return r
+	}, s)
+
+	words := strings.FieldsFunc(s, func(r rune) bool {
+		return r == ' ' || r == ',' || r == '\t'
+	})
+
+	kept := make([]string, 0, len(words))
+	for _, w := range words {
+		bare := strings.ToLower(strings.Trim(w, ".,-()"))
+		if bare == "" {
+			continue
+		}
+		if _, isLegal := legalFormSet[bare]; isLegal {
+			continue
+		}
+		kept = append(kept, strings.Trim(w, ",.()"))
 	}
-	return s
+
+	// Если после чистки ничего не осталось — имя состояло из одних
+	// служебных слов; лучше вернуть исходное, чем пустоту.
+	if len(kept) == 0 {
+		kept = words
+	}
+
+	// Слишком длинное имя обрезаем по словам, а не по символам: обрывок
+	// вида «Cloud Technologies LL…» выглядит как ошибка.
+	const maxLen = 22
+	result := strings.Join(kept, " ")
+	if len([]rune(result)) > maxLen {
+		result = shortenByWords(kept, maxLen)
+	}
+	return strings.Trim(result, " ,.-")
+}
+
+// shortenByWords собирает имя из слов, пока помещается в лимит,
+// отбрасывая общие для всех хостеров слова.
+//
+// Надёжно выделить бренд из произвольного названия нельзя: он бывает и в
+// начале («Hetzner Online GmbH»), и в конце («OOO Network of data-centers
+// Selectel»). Поэтому цель скромнее — получить узнаваемую подпись, а не
+// каноническое имя компании. Как следствие, два написания одного
+// провайдера иногда всё же дают разные подписи.
+func shortenByWords(words []string, maxLen int) string {
+	meaningful := make([]string, 0, len(words))
+	for _, w := range words {
+		if _, generic := genericWords[strings.ToLower(strings.Trim(w, ".,-()"))]; generic {
+			continue
+		}
+		meaningful = append(meaningful, w)
+	}
+	if len(meaningful) == 0 {
+		meaningful = words
+	}
+
+	var b strings.Builder
+	for _, w := range meaningful {
+		next := len([]rune(b.String())) + len([]rune(w))
+		if b.Len() > 0 {
+			next++
+		}
+		if next > maxLen {
+			break
+		}
+		if b.Len() > 0 {
+			b.WriteByte(' ')
+		}
+		b.WriteString(w)
+	}
+	if b.Len() == 0 {
+		// Первое слово само длиннее лимита — режем его.
+		r := []rune(meaningful[0])
+		return string(r[:min(maxLen, len(r))])
+	}
+	return b.String()
+}
+
+func looksLikeURL(s string) bool {
+	l := strings.ToLower(s)
+	return strings.HasPrefix(l, "http://") || strings.HasPrefix(l, "https://") ||
+		strings.HasPrefix(l, "www.")
+}
+
+func isDigits(s string) bool {
+	if s == "" {
+		return false
+	}
+	for _, r := range s {
+		if r < '0' || r > '9' {
+			return false
+		}
+	}
+	return true
 }
