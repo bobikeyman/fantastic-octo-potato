@@ -3,8 +3,6 @@
 #subscription-userinfo: upload=0; download=0; total=107374182400; expire=0
 #support-url: https://bobivpn.netlify.app/
 #profile-web-page-url: https://bobivpn.netlify.app/
-#announce: base64:8J+Hp/Cfh6wgQm9iaVZQTiDigJQgQnVsZ2FyaWEK4pqhIDMg0L/RgNC+0LLQtdGA0LXQvdC90YvRhSDRgdC10YDQstC10YDQvtCy
+#announce: base64:8J+Hp/Cfh6wgQm9iaVZQTiDigJQgQnVsZ2FyaWEK4pqhIDEg0L/RgNC+0LLQtdGA0LXQvdC90YvRhSDRgdC10YDQstC10YDQvtCy
 
 vless://fc1b3bda-b226-452a-8c5c-b0e36a1f8f88@185.82.219.152:443?type=raw&security=reality&flow=xtls-rprx-vision&fp=qq&pbk=b-Cm9hX-3UHsS1L_lnUB6AMjuKhlN1IDdBbZ506itjI&sid=00bca5982f82d083&sni=eu-central.cendora.ru#%F0%9F%87%A7%F0%9F%87%AC%20Bulgaria%20%7C%20Green%20Floid%201
-vless://75bf4758-0dfa-4b7e-8a73-813088edb780@2.27.105.172:443?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=koIuNibeQcUFNPBwA_jvFdKgd8-GHT7RcjPhq9EywAQ&sid=bb186e4397a2792d&sni=www.yandex.ru&spx=/#%F0%9F%87%A7%F0%9F%87%AC%20Bulgaria%20%7C%20Netgrid%20Host%201
-vless://b4d65264-b76d-4e57-b71b-5c7270fbc813@godisko.ugo.si:31820?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=GNPB5tj9F7F1q638-WCuDQaXpiWPxM3GLkCkmS54sQ8&sid=eb7fae88&sni=www.cloudflare.com&spx=/1399679c1775010#%F0%9F%87%A7%F0%9F%87%AC%20Bulgaria%20%7C%20SEBEK%20z%20o.o%201

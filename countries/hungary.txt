@@ -1,9 +1,0 @@
-#profile-update-interval: 1
-#profile-title: 🇭🇺 BobiVPN Hungary
-#subscription-userinfo: upload=0; download=0; total=107374182400; expire=0
-#support-url: https://bobivpn.netlify.app/
-#profile-web-page-url: https://bobivpn.netlify.app/
-#announce: base64:8J+HrfCfh7ogQm9iaVZQTiDigJQgSHVuZ2FyeQrimqEgMiDQv9GA0L7QstC10YDQtdC90L3Ri9GFINGB0LXRgNCy0LXRgNC+0LI=
-
-vless://52d0b2d5-a003-4509-ab70-d1d720a14cd7@hu007.bearbeer.digital:443?encryption=none&security=reality&type=xhttp&sni=hu007.bearbeer.digital&fp=qq&pbk=z-TKWOWgZLfzQ-wNdwXQqVwaUgCmbchM2Xtrk1NGynU&spx=%2F&mode=auto#%F0%9F%87%AD%F0%9F%87%BA%20Hungary%20%7C%20ATW%20Internet%20Kft%201
-vless://695e3dfd-14dd-4fa3-9c6a-f8108c376982@152.233.41.13:16923?encryption=none&type=grpc&serviceName=neurex&security=reality&sni=api-maps.yandex.ru&fp=firefox&pbk=_QeslG3rHGM7DoM99pYC8-jpc16pM2MbNZ6NRMoxmHA&sid=10ffb85da1c2d986#%F0%9F%87%AD%F0%9F%87%BA%20Hungary%20%7C%20DataCamp%201

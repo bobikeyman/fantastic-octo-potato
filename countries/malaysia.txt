@@ -1,8 +1,0 @@
-#profile-update-interval: 1
-#profile-title: 🇲🇾 BobiVPN Malaysia
-#subscription-userinfo: upload=0; download=0; total=107374182400; expire=0
-#support-url: https://bobivpn.netlify.app/
-#profile-web-page-url: https://bobivpn.netlify.app/
-#announce: base64:8J+HsvCfh74gQm9iaVZQTiDigJQgTWFsYXlzaWEK4pqhIDEg0L/RgNC+0LLQtdGA0LXQvdC90YvRhSDRgdC10YDQstC10YDQvtCy
-
-vmess://eyJ2IjoiMiIsInBzIjoiVGVsZWdyYW06WW91dHViZVVuQmxvY2tSdSIsImFkZCI6IjQ3LjI1MC4xMzUuMjQ0IiwicG9ydCI6IjEwMDAwIiwiaWQiOiJhZWRjNjZiOC05OWQ3LTRhMjEtODMxMC02MTg3MGU3Zjg3MGQiLCJhaWQiOiIwIiwic2N5IjoiYXV0byIsIm5ldCI6InRjcCIsInR5cGUiOiJub25lIiwiaG9zdCI6IiIsInBhdGgiOiIiLCJ0bHMiOiIiLCJzbmkiOiIiLCJhbHBuIjoiIiwiZnAiOiIiLCJpbnNlY3VyZSI6IjAiLCJza2lwLWNlcnQtdmVyaWZ5IjoiVHJ1ZSJ9#%F0%9F%87%B2%F0%9F%87%BE%20Malaysia%20%7C%20Alibaba%20US%20Technology%201
