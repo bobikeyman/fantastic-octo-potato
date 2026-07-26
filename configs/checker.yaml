@@ -1,0 +1,79 @@
+# Конфигурация BobiVPN Checker.
+# Все пороги отбора живут здесь — менять их можно без пересборки.
+
+# Движок проверки:
+#   library    — Xray-core встроен в бинарь, core.Dial без портов и процессов (по умолчанию)
+#   subprocess — внешний бинарь xray с SOCKS-инбаундами, для отладки
+engine: library
+
+source:
+  # Публичный список подписок. Приватные добавляются секретом SUBSCRIPTION_URLS.
+  file: subscriptions.txt
+  fetch_timeout: 30s
+  fetch_retries: 3
+  user_agent: v2rayNG/1.8.5
+
+# --- Стадия 1: дешёвый L4-фильтр ---
+l4:
+  enabled: true
+  timeout: 3s
+  # Домены за CDN не отсеиваем: там отвечает edge, а не нода.
+  skip_for_cdn: true
+
+# --- Стадия 2: проверка прокси ---
+probe:
+  timeout: 8s
+  dial_timeout: 5s
+  # Проверка сертификата включена. Ключи, которым нужен allowInsecure,
+  # уходят в корзину tier=insecure, а не в мусор.
+  allow_insecure_tls: false
+  # Требуется строгий 204 с пустым телом от ОБОИХ (разные ASN).
+  connectivity_urls:
+    - https://cp.cloudflare.com/generate_204
+    - https://www.gstatic.com/generate_204
+  # Отдаёт exit IP, colo и признак WARP одним TLS-верифицированным запросом.
+  trace_url: https://cloudflare.com/cdn-cgi/trace
+
+# --- Стадия 3: качество ---
+quality:
+  speed_test_url: https://speed.cloudflare.com/__down?bytes=3000000
+  speed_test_size: 3MB
+  speed_test_timeout: 20s
+  min_speed_kbps: 200
+  latency_samples: 3
+  max_latency_p50: 2000ms
+  max_jitter: 500ms
+
+# --- Стадия 4: стабильность ---
+stability:
+  probes: 3
+  interval: 45s
+  required: 2
+
+# --- История репутации между прогонами ---
+history:
+  file: state/history.jsonl.gz
+  min_ewma: 0.6
+  # Новый ключ публикуется только после N успешных прогонов подряд.
+  min_runs: 2
+  ttl_days: 7
+
+# --- Отбор в выдачу ---
+select:
+  # Убирает ситуацию «527 ключей на один и тот же exit IP».
+  max_keys_per_exit_ip: 5
+
+runtime:
+  concurrency: 150
+  shards: 8
+
+geo:
+  mmdb: .cache/GeoLite2-City.mmdb
+  asn_mmdb: .cache/GeoLite2-ASN.mmdb
+
+output:
+  dir: .
+  # Страны для облегчённой подписки bobi_vpn_lite.txt
+  lite_countries: [RU, DE, FR, FI, EE, LV, LT]
+  profile_title: 🐶BobiVPN🐶
+  support_url: https://bobivpn.netlify.app/

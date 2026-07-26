@@ -1,0 +1,20 @@
+# сборка (только в корне: иначе паттерн съедает cmd/checker/)
+/bin/
+/dist/
+/checker
+/checker.exe
+
+# локальные прогоны
+/result/
+/out/
+*.local.yaml
+
+# кэши инструментов
+/.cache/
+*.mmdb
+
+# IDE / ОС
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
