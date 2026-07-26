@@ -116,6 +116,11 @@ func splitFragment(raw string) (body, name string) {
 	return body, strings.TrimSpace(frag)
 }
 
+// DecodeBase64 раскодирует строку, перебирая варианты кодирования,
+// которые встречаются в подписках. Нужен загрузчику: тело подписки часто
+// целиком завёрнуто в base64.
+func DecodeBase64(s string) ([]byte, error) { return decodeBase64(s) }
+
 // decodeBase64 пробует все четыре варианта кодирования, встречающиеся в подписках.
 func decodeBase64(s string) ([]byte, error) {
 	s = strings.TrimSpace(s)

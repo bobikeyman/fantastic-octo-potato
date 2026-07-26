@@ -35,6 +35,16 @@ func main() {
 			fmt.Fprintln(os.Stderr, "ошибка:", err)
 			os.Exit(1)
 		}
+	case "collect":
+		if err := cmdCollect(os.Args[2:]); err != nil {
+			fmt.Fprintln(os.Stderr, "ошибка:", err)
+			os.Exit(1)
+		}
+	case "check":
+		if err := cmdCheck(os.Args[2:]); err != nil {
+			fmt.Fprintln(os.Stderr, "ошибка:", err)
+			os.Exit(1)
+		}
 	case "version", "-v", "--version":
 		fmt.Println("bobi-checker", version)
 	case "help", "-h", "--help":
@@ -50,11 +60,14 @@ func usage() {
 	fmt.Fprint(os.Stderr, `BobiVPN Checker
 
 Использование:
-  checker parse --file <путь> [--stats] [--rejected] [--out <файл.json>]
+  checker parse   --file <путь> [--stats] [--rejected] [--out <файл.json>]
+  checker collect [--subs subscriptions.txt] [--out shards] [--shards 8]
+  checker check   --shard <shard-N.json> [--out <результат.json>] [--limit N]
   checker version
 
-Режим parse работает офлайн: разбирает ключи, валидирует и дедуплицирует
-по отпечатку без учёта #имени.
+  parse    офлайн: разбор, валидация и дедуп ключей из файла
+  collect  загрузка подписок и нарезка работы на шарды (нужна сеть)
+  check    проверка нод шарда через Xray-core (нужна сеть)
 `)
 }
 
