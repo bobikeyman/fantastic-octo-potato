@@ -3,15 +3,11 @@
 #subscription-userinfo: upload=0; download=0; total=107374182400; expire=0
 #support-url: https://bobivpn.netlify.app/
 #profile-web-page-url: https://bobivpn.netlify.app/
-#announce: base64:8J+HufCfh7cgQm9iaVZQTiDigJQgVHVya2V5CuKaoSAxMCDQv9GA0L7QstC10YDQtdC90L3Ri9GFINGB0LXRgNCy0LXRgNC+0LI=
+#announce: base64:8J+HufCfh7cgQm9iaVZQTiDigJQgVHVya2V5CuKaoSA2INC/0YDQvtCy0LXRgNC10L3QvdGL0YUg0YHQtdGA0LLQtdGA0L7Qsg==
 
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpYRlBweXVxazNIMFk4SlZwVkdxU0p3@Vpna.Poorifast.ir:1080?#%F0%9F%87%B9%F0%9F%87%B7%20Turkey%20%7C%20Avea%20Iletisim%201
-vless://06d44c57-8e1a-41f4-b9c4-65d35869e078@tur02.myxasecure.space:443?type=raw&security=reality&flow=xtls-rprx-vision&fp=firefox&pbk=OCLtjVdRxsou3429LRfjkDYgiAPs24TSgSeFZpChCEw&sid=d67ec5a8fc40ebea&sni=tur02.myxasecure.space#%F0%9F%87%B9%F0%9F%87%B7%20Turkey%20%7C%20Connectivity%20LLP%201
-vless://f75814f6-8f81-4847-b792-168c41f2dc85@45.196.201.190:443?type=tcp&security=reality&sni=storage.yandex.net&fp=firefox&flow=xtls-rprx-vision&pbk=zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04&sid=c6ef72e4635d15a5#%F0%9F%87%B9%F0%9F%87%B7%20Turkey%20%7C%20Datacamp%201
-vless://f75814f6-8f81-4847-b792-168c41f2dc85@45.196.201.241:443?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04&sid=c6ef72e4635d15a5&sni=storage.yandex.net&path=/#%F0%9F%87%B9%F0%9F%87%B7%20Turkey%20%7C%20Datacamp%202
-vless://acc50200-7f21-4f90-9cca-0057efcbf042@91.124.63.229:443?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=rNBFVzV18kAj_ei4AqsgZywzmvD36WK9hcRdVnpHPAM&sid=c0573c8280a0c019&sni=www.ya.ru#%F0%9F%87%B9%F0%9F%87%B7%20Turkey%20%7C%20Ekiphost%20Bilisim%201
-vless://acc50200-7f21-4f90-9cca-0057efcbf042@try.north-1winter.cv:443?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=rNBFVzV18kAj_ei4AqsgZywzmvD36WK9hcRdVnpHPAM&sid=c0573c8280a0c019&sni=www.ya.ru#%F0%9F%87%B9%F0%9F%87%B7%20Turkey%20%7C%20Ekiphost%20Bilisim%202
+vless://f75814f6-8f81-4847-b792-168c41f2dc85@45.196.201.123:443?type=tcp&security=reality&sni=storage.yandex.net&fp=firefox&flow=xtls-rprx-vision&pbk=zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04&sid=c6ef72e4635d15a5#%F0%9F%87%B9%F0%9F%87%B7%20Turkey%20%7C%20Datacamp%201
+vless://acc50200-7f21-4f90-9cca-0057efcbf042@try.north-1winter.cv:443?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=rNBFVzV18kAj_ei4AqsgZywzmvD36WK9hcRdVnpHPAM&sid=c0573c8280a0c019&sni=www.ya.ru#%F0%9F%87%B9%F0%9F%87%B7%20Turkey%20%7C%20Ekiphost%20Bilisim%201
+vless://acc50200-7f21-4f90-9cca-0057efcbf042@91.124.63.229:443?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=rNBFVzV18kAj_ei4AqsgZywzmvD36WK9hcRdVnpHPAM&sid=c0573c8280a0c019&sni=www.ya.ru#%F0%9F%87%B9%F0%9F%87%B7%20Turkey%20%7C%20Ekiphost%20Bilisim%202
 vless://de64aaa6-a0ea-48d0-853b-1c3cbc7fb42c@141.98.118.70:443?type=xhttp&security=reality&fp=chrome&pbk=LjEQR0FEtsOs5eQoVsZgJX5ZI0yeadUKTCLoGD641RQ&sid=44&sni=www.google.com&mode=auto&spx=/#%F0%9F%87%B9%F0%9F%87%B7%20Turkey%20%7C%20Hostigger%201
-vless://0c5853e1-a606-4aa2-bbfa-86a7b58d43b1@217.11.164.87:44217?type=tcp&security=reality&encryption=none&fp=chrome&pbk=a1VvM3k8ETY4UZVL_eUbKwFwpVveNqD0ObMZ1dtwLj0&sid=2adcb0c184d15c1a&sni=www.cloudflare.com#%F0%9F%87%B9%F0%9F%87%B7%20Turkey%20%7C%20Netlen%20Hizmetleri%20Sti%201
 ss://YWVzLTI1Ni1nY206Y2RCSURWNDJEQ3duZklO@38.180.113.194:8119?#%F0%9F%87%B9%F0%9F%87%B7%20Turkey%20%7C%20Scalaxy%201
 vmess://eyJ2IjoiMiIsInBzIjoiVGVsZWdyYW06WW91dHViZVVuQmxvY2tSdSIsImFkZCI6Ijk0LjEzMS4xMDguMzYiLCJwb3J0IjoiNDQzIiwiaWQiOiI5ODU1ZjFmMC1hODAwLTQwZDQtOGIzOC1jN2QzZWI3OTMwMmQiLCJhaWQiOiIwIiwic2N5IjoiYXV0byIsIm5ldCI6IndzIiwidHlwZSI6Ii0tLSIsImhvc3QiOiIiLCJwYXRoIjoiIiwidGxzIjoiIiwic25pIjoiIiwiYWxwbiI6IiIsImZwIjoiIn0=#%F0%9F%87%B9%F0%9F%87%B7%20Turkey%20%7C%20WorkTitans%201
