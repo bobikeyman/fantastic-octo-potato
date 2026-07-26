@@ -29,6 +29,7 @@ const (
 	ReasonBadUUID              Reason = "bad_uuid"
 	ReasonBadReality           Reason = "bad_reality"
 	ReasonBadFlow              Reason = "bad_flow"
+	ReasonBadEncryption        Reason = "bad_encryption"
 	ReasonLegacyVMess          Reason = "legacy_vmess"
 	ReasonEmptyCredentials     Reason = "empty_credentials"
 )
@@ -179,8 +180,11 @@ func normalizeTransport(s string) (model.Transport, error) {
 		return model.TransportWS, nil
 	case "grpc", "gun":
 		return model.TransportGRPC, nil
-	case "http", "h2", "h2c":
-		return model.TransportHTTP, nil
+	case "http", "h2", "h2c", "h3", "quic":
+		// Xray-core удалил HTTP/2- и QUIC-транспорты (PrintRemovedFeatureError):
+		// конфиг с ними не соберётся. Отбраковываем с внятной причиной,
+		// чтобы такие ключи были видны в статистике, а не падали позже.
+		return "", errf(ReasonUnsupportedTransport, "%s удалён в xray-core", s)
 	case "httpupgrade":
 		return model.TransportHTTPUpgrade, nil
 	case "xhttp", "splithttp":

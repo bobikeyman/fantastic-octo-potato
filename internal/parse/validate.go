@@ -28,6 +28,9 @@ func Validate(n *model.Node) error {
 		if err := validateUUID(n.UUID); err != nil {
 			return err
 		}
+		if err := validateEncryption(n.Encryption); err != nil {
+			return err
+		}
 	case model.ProtoVMess:
 		if err := validateUUID(n.UUID); err != nil {
 			return err
@@ -115,6 +118,29 @@ func validateUUID(id string) error {
 
 func isHexDigit(r rune) bool {
 	return (r >= '0' && r <= '9') || (r >= 'a' && r <= 'f') || (r >= 'A' && r <= 'F')
+}
+
+// validateEncryption ловит мусор в параметре encryption.
+//
+// Встречается реально: авторы подписок вписывают туда рекламу своего канала
+// («encryption=none=/@Telegram-|-@…»). Ядро такой ключ отвергает уже на
+// сборке конфига — ловим раньше и с внятной причиной.
+//
+// Проверка намеренно мягкая: у VLESS кроме "none" бывают длинные строки
+// пост-квантового шифрования, поэтому режем только по символам,
+// которых в имени шифра быть не может.
+func validateEncryption(enc string) error {
+	enc = strings.TrimSpace(enc)
+	if enc == "" {
+		return nil
+	}
+	if len(enc) > 512 {
+		return errf(ReasonBadEncryption, "слишком длинное (%d)", len(enc))
+	}
+	if i := strings.IndexAny(enc, "@|<>#\" \t\r\n"); i >= 0 {
+		return errf(ReasonBadEncryption, "запрещённый символ %q", enc[i])
+	}
+	return nil
 }
 
 func validateReality(n *model.Node) error {

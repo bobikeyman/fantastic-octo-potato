@@ -34,7 +34,6 @@ const (
 	TransportRaw         Transport = "raw"
 	TransportWS          Transport = "ws"
 	TransportGRPC        Transport = "grpc"
-	TransportHTTP        Transport = "http" // h2
 	TransportHTTPUpgrade Transport = "httpupgrade"
 	TransportXHTTP       Transport = "xhttp" // бывший splithttp
 	TransportKCP         Transport = "kcp"

@@ -85,10 +85,6 @@ func applyStreamParams(n *model.Node, q url.Values) {
 		n.Mode = strings.TrimSpace(q.Get("mode"))
 		n.Host = firstHost(q.Get("authority"))
 
-	case model.TransportHTTP:
-		n.Path = pathOrRoot(q.Get("path"))
-		n.Host = firstHost(q.Get("host"))
-
 	case model.TransportKCP:
 		n.Seed = strings.TrimSpace(q.Get("seed"))
 		n.HeaderType = headerTypeOrNone(q.Get("headerType"))

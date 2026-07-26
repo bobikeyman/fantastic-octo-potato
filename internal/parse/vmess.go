@@ -163,9 +163,6 @@ func parseVMess(raw string) (*model.Node, error) {
 		n.ServiceName = strings.TrimPrefix(strings.TrimSpace(vPath), "/")
 		n.Mode = vType
 		n.Host = vHost
-	case model.TransportHTTP:
-		n.Path = pathOrRoot(vPath)
-		n.Host = vHost
 	case model.TransportKCP:
 		n.Seed = strings.TrimSpace(vPath)
 		n.HeaderType = headerTypeOrNone(vType)
