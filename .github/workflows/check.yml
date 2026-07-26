@@ -15,6 +15,9 @@ on:
       min_speed:
         description: 'Минимальная скорость, KB/s'
         default: '200'
+      concurrency:
+        description: 'Параллельных проверок на шард'
+        default: '60'
 
 permissions:
   contents: write
@@ -109,6 +112,7 @@ jobs:
             --shard "shards/shard-${{ matrix.shard }}.json" \
             --out "results/result-${{ matrix.shard }}.json" \
             --min-speed "${{ inputs.min_speed || 200 }}" \
+            --concurrency "${{ inputs.concurrency || 60 }}" \
             --limit "${{ inputs.limit || 0 }}" \
             --quiet
 
