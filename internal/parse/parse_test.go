@@ -314,6 +314,56 @@ func TestFingerprintIgnoresName(t *testing.T) {
 	}
 }
 
+// Разные подписки на одном сервере — независимые ключи: одну могут
+// забанить, вторая продолжит работать. Склеивать их нельзя ни при каких
+// условиях, иначе рабочая учётка потеряется вместе с забаненной.
+func TestFingerprintSeparatesAccountsOnSameServer(t *testing.T) {
+	base := "@same.example.com:443?type=tcp&security=tls&sni=same.example.com#N"
+
+	a := mustParse(t, "vless://11111111-1111-1111-1111-111111111111"+base)
+	b := mustParse(t, "vless://22222222-2222-2222-2222-222222222222"+base)
+	if a.Fingerprint() == b.Fingerprint() {
+		t.Error("два разных uuid на одном сервере склеены в один ключ")
+	}
+
+	// То же для пароля: trojan и shadowsocks различаются им, а не uuid.
+	t1 := mustParse(t, "trojan://pass-one@same.example.com:443?sni=same.example.com#N")
+	t2 := mustParse(t, "trojan://pass-two@same.example.com:443?sni=same.example.com#N")
+	if t1.Fingerprint() == t2.Fingerprint() {
+		t.Error("два разных пароля на одном сервере склеены в один ключ")
+	}
+
+	// И через Batch — дедуп не должен их схлопнуть.
+	nodes, stats := Batch([]string{
+		"vless://11111111-1111-1111-1111-111111111111" + base,
+		"vless://22222222-2222-2222-2222-222222222222" + base,
+		"vless://33333333-3333-3333-3333-333333333333" + base,
+	})
+	if len(nodes) != 3 {
+		t.Errorf("из трёх учёток осталось %d", len(nodes))
+	}
+	if stats.Duplicate != 0 {
+		t.Errorf("учётки посчитаны дублями: %d", stats.Duplicate)
+	}
+}
+
+// Один и тот же вход, но разные порты — это разные точки входа:
+// провайдер может закрыть одну и оставить другую.
+func TestFingerprintSeparatesPortsAndTransports(t *testing.T) {
+	uuid := "vless://11111111-1111-1111-1111-111111111111@srv.example.com:"
+	a := mustParse(t, uuid+"443?type=tcp&security=tls&sni=srv.example.com#N")
+	b := mustParse(t, uuid+"8443?type=tcp&security=tls&sni=srv.example.com#N")
+	c := mustParse(t, uuid+"443?type=ws&security=tls&sni=srv.example.com&path=/x#N")
+
+	seen := map[string]bool{}
+	for _, n := range []*model.Node{a, b, c} {
+		if seen[n.Fingerprint()] {
+			t.Fatal("разные точки входа склеены")
+		}
+		seen[n.Fingerprint()] = true
+	}
+}
+
 func TestBatchDedup(t *testing.T) {
 	base := "vless://b831381d-6324-4d53-ad4f-8cda48b30811@a.example.com:443?type=tcp&security=tls&sni=a.example.com"
 	lines := []string{

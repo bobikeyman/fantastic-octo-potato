@@ -116,8 +116,6 @@ func TestRenameMarksInsecure(t *testing.T) {
 	}
 }
 
-// В выхлопе старого чекера 527 ключей вели на один адрес — для пользователя
-// это один сервер, показанный полутысячей строк.
 func TestLimitPerExitIP(t *testing.T) {
 	var keys []Key
 	for i := 0; i < 12; i++ {
@@ -139,6 +137,21 @@ func TestLimitPerExitIP(t *testing.T) {
 	// Ключи без известного адреса не выбрасываются.
 	if got := LimitPerExitIP([]Key{{ExitIP: ""}, {ExitIP: ""}}, 1); len(got) != 2 {
 		t.Errorf("ключи без exit IP отброшены: %d", len(got))
+	}
+}
+
+// Режим по умолчанию: ничего не выбрасываем. Совпадение выходного адреса
+// не означает ни одного сервера, ни одной учётки — за общим шлюзом стоит
+// ферма входных серверов, и каждый вход переживает блокировку соседних.
+func TestLimitPerExitIPDisabledByDefault(t *testing.T) {
+	var keys []Key
+	for i := 0; i < 35; i++ {
+		keys = append(keys, Key{Fingerprint: string(rune('a' + i)), ExitIP: "152.233.53.89"})
+	}
+	for _, n := range []int{0, -1} {
+		if got := LimitPerExitIP(keys, n); len(got) != len(keys) {
+			t.Errorf("при n=%d выброшено %d ключей", n, len(keys)-len(got))
+		}
 	}
 }
 

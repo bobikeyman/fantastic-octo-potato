@@ -23,7 +23,9 @@ func cmdPublish(args []string) error {
 	minEWMA := fs.Float64("min-ewma", 0.6, "минимальная репутация для публикации")
 	minRuns := fs.Int("min-runs", 2, "сколько прогонов ключ должен быть виден")
 	ttlDays := fs.Int("ttl-days", 7, "через сколько дней забывать невидимые ключи")
-	maxPerIP := fs.Int("max-per-ip", 5, "максимум ключей на один выходной адрес")
+	// 0 = без ограничения. Совпадение выходного адреса не означает ни одного
+	// сервера, ни одной учётки — подробности в докстроке LimitPerExitIP.
+	maxPerIP := fs.Int("max-per-ip", 0, "максимум ключей на один выходной адрес (0 — без ограничения)")
 	topCount := fs.Int("top", 100, "размер топовой подписки")
 	noGeo := fs.Bool("no-geo", false, "не запрашивать провайдеров")
 	if err := fs.Parse(args); err != nil {

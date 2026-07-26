@@ -155,7 +155,7 @@ jobs:
             --history state/history.jsonl.gz \
             --min-ewma 0.6 \
             --min-runs 2 \
-            --max-per-ip 5
+            --max-per-ip 0
 
       - name: Коммит результатов
         run: |
