@@ -161,15 +161,32 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add -A vpn.txt vpn_base64.txt vpn_renamed.txt vpn_renamed_base64.txt \
-                     bobi_vpn.txt bobi_vpn_base64.txt bobi_vpn_lite.txt bobi_vpn_top.txt \
-                     vpn_report.json countries/ state/ 2>/dev/null || true
+          # Пути добавляются по одному: git add с несколькими pathspec падает
+          # целиком, если хоть один не существует. На первом прогоне файлов
+          # подписок ещё нет, но историю сохранить нужно обязательно.
+          for path in vpn.txt vpn_base64.txt vpn_renamed.txt vpn_renamed_base64.txt \
+                      bobi_vpn.txt bobi_vpn_base64.txt bobi_vpn_lite.txt bobi_vpn_top.txt \
+                      vpn_report.json countries state; do
+            if [ -e "$path" ]; then
+              git add -A "$path"
+            fi
+          done
+
           if git diff --staged --quiet; then
             echo "Изменений нет."
             exit 0
           fi
-          keys=$(grep -c '://' bobi_vpn.txt || echo 0)
-          git commit -m "🐶 Обновление подписок: $keys ключей — $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git status --short
+
+          keys=$(grep -c '://' bobi_vpn.txt 2>/dev/null || echo 0)
+          if [ "$keys" -gt 0 ]; then
+            msg="🐶 Обновление подписок: $keys ключей"
+          else
+            # Первый прогон: ключей ещё нет, но история уже накоплена —
+            # без её сохранения следующий прогон снова окажется первым.
+            msg="📊 Накопление истории репутации"
+          fi
+          git commit -m "$msg — $(date -u +'%Y-%m-%d %H:%M UTC')"
           # Параллельный прогон мог успеть запушить: подтягиваем и повторяем.
           for i in 1 2 3; do
             git pull --rebase --autostash origin main && git push origin HEAD:main && exit 0
