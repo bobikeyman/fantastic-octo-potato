@@ -3,8 +3,9 @@
 #subscription-userinfo: upload=0; download=0; total=107374182400; expire=0
 #support-url: https://bobivpn.netlify.app/
 #profile-web-page-url: https://bobivpn.netlify.app/
-#announce: base64:8J+HqvCfh7ggQm9iaVZQTiDigJQgU3BhaW4K4pqhIDMg0L/RgNC+0LLQtdGA0LXQvdC90YvRhSDRgdC10YDQstC10YDQvtCy
+#announce: base64:8J+HqvCfh7ggQm9iaVZQTiDigJQgU3BhaW4K4pqhIDQg0L/RgNC+0LLQtdGA0LXQvdC90YvRhSDRgdC10YDQstC10YDQvtCy
 
+vless://deb9c015-1ffe-4e41-9d21-310eb0422a4c@5.180.173.248:25189?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=3mGZ-EifRwU8TS4AkRcPuBlAzikWvk3v5ffbYgQYo0Q&sid=b07bb2ef24a80a25&sni=proxy11.h1guro.ovh#%F0%9F%87%AA%F0%9F%87%B8%20Spain%20%7C%20Hostkey%201
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpXU3lMNFhUd05zZHY=@108.181.121.226:8388?#%F0%9F%87%AA%F0%9F%87%B8%20Spain%20%7C%20Psychz%20Networks%201
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpxSXRHOFN1ZVlRY1A@140.174.184.5:8388?#%F0%9F%87%AA%F0%9F%87%B8%20Spain%20%7C%20Psychz%20Networks%202
-vless://806b803b-7dad-4f13-b525-f3b1ab50e44e@sp.skysafe.online:2027?type=xhttp&security=reality&path=/patch&sni=sp.skysafe.online&fp=qq&pbk=EApxy12MeXpqt-78odxizwcXT6hX9f8XeAcbMDVRAV0&sid=6ba7b8109dad11d1#%F0%9F%87%AA%F0%9F%87%B8%20Spain%20%7C%20ZhouyiSat%201
+vless://806b803b-7dad-4f13-b525-f3b1ab50e44e@sp.skysafe.online:2027?path=/patch&security=reality&encryption=none&pbk=EApxy12MeXpqt-78odxizwcXT6hX9f8XeAcbMDVRAV0&fp=chrome&type=xhttp&sni=sp.skysafe.online&sid=6ba7b8109dad11d1#%F0%9F%87%AA%F0%9F%87%B8%20Spain%20%7C%20ZhouyiSat%201
