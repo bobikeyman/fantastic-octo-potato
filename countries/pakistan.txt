@@ -5,4 +5,4 @@
 #profile-web-page-url: https://bobivpn.netlify.app/
 #announce: base64:8J+HtfCfh7AgQm9iaVZQTiDigJQgUGFraXN0YW4K4pqhIDEg0L/RgNC+0LLQtdGA0LXQvdC90YvRhSDRgdC10YDQstC10YDQvtCy
 
-trojan://S.ibYdZshHTF-ne.M+.Fznp_-hyFFnCSix@149.104.104.58:443?security=tls&sni=149.104.104.58#%F0%9F%87%B5%F0%9F%87%B0%20Pakistan%20%7C%20Bedge%201
+trojan://S.ibYdZshHTF-ne.M+.Fznp_-hyFFnCSix@149.104.104.58:443?security=tls&type=tcp&fp=ios#%F0%9F%87%B5%F0%9F%87%B0%20Pakistan%20%7C%20Bedge%201

@@ -3,45 +3,14 @@
 #subscription-userinfo: upload=0; download=0; total=107374182400; expire=0
 #support-url: https://bobivpn.netlify.app/
 #profile-web-page-url: https://bobivpn.netlify.app/
-#announce: base64:8J+Hr/Cfh7UgQm9iaVZQTiDigJQgSmFwYW4K4pqhIDQwINC/0YDQvtCy0LXRgNC10L3QvdGL0YUg0YHQtdGA0LLQtdGA0L7Qsg==
+#announce: base64:8J+Hr/Cfh7UgQm9iaVZQTiDigJQgSmFwYW4K4pqhIDkg0L/RgNC+0LLQtdGA0LXQvdC90YvRhSDRgdC10YDQstC10YDQvtCy
 
 vless://e01fcb68-3112-49da-b85d-dffb799cfc9b@jp.wxgqlfx.top:26518?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=1fa6iCY7vhoQyKu91FeaK04FN-mr1qeHnrtdyLZ79mk&sid=6caead99&sni=github.com&udp=1#%F0%9F%87%AF%F0%9F%87%B5%20Japan%20%7C%20Akile%201
-vless://814bd064-544d-4255-a070-5705c03f6da9@3.114.220.22:18007?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0&sid=48050fab&sni=www.apple.com#%F0%9F%87%AF%F0%9F%87%B5%20Japan%20%7C%20Amazon%20Technologies%201
+vless://814bd064-544d-4255-a070-5705c03f6da9@3.114.220.22:19645?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0&sid=48050fab&sni=www.apple.com#%F0%9F%87%AF%F0%9F%87%B5%20Japan%20%7C%20Amazon%20Technologies%201
 vless://814bd064-544d-4255-a070-5705c03f6da9@3.114.220.22:10583?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0&sid=48050fab&sni=www.apple.com#%F0%9F%87%AF%F0%9F%87%B5%20Japan%20%7C%20Amazon%20Technologies%202
-vless://814bd064-544d-4255-a070-5705c03f6da9@3.114.220.22:19645?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0&sid=48050fab&sni=www.apple.com#%F0%9F%87%AF%F0%9F%87%B5%20Japan%20%7C%20Amazon%20Technologies%203
-vless://814bd064-544d-4255-a070-5705c03f6da9@103.75.118.228:11452?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0&sid=48050fab&sni=www.apple.com#%F0%9F%87%AF%F0%9F%87%B5%20Japan%20%7C%20BrainStorm%20Network%201
-ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M=@149.22.87.204:443?#%F0%9F%87%AF%F0%9F%87%B5%20Japan%20%7C%20Datacamp%201
-ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M=@149.22.87.240:443?#%F0%9F%87%AF%F0%9F%87%B5%20Japan%20%7C%20Datacamp%202
-ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M@149.22.87.241:443?#%F0%9F%87%AF%F0%9F%87%B5%20Japan%20%7C%20Datacamp%203
-trojan://WG39087154@novel-bat.rooster465.autos:443?sni=novel-bat.rooster465.autos&type=tcp&fp=chrome#%F0%9F%87%AF%F0%9F%87%B5%20Japan%20%7C%20G-Core%20Labs%201
-trojan://IQ68037294@novel-bat.rooster465.autos:443?allowInsecure=0#%F0%9F%87%AF%F0%9F%87%B5%20Japan%20%7C%20G-Core%20Labs%202
-trojan://FC60532879@open-octopus.rooster465.autos:443?sni=open-octopus.rooster465.autos&type=tcp&fp=chrome#%F0%9F%87%AF%F0%9F%87%B5%20Japan%20%7C%20G-Core%20Labs%203
-trojan://WG39087154@flexible-pony.rooster465.autos:443?sni=flexible-pony.rooster465.autos&type=tcp&fp=chrome#%F0%9F%87%AF%F0%9F%87%B5%20Japan%20%7C%20G-Core%20Labs%204
-trojan://IQ68037294@next-ringtail.rooster465.autos:443?security=tls&sni=next-ringtail.rooster465.autos#%F0%9F%87%AF%F0%9F%87%B5%20Japan%20%7C%20G-Core%20Labs%205
-trojan://WG39087154@flying-escargot.rooster465.autos:443?sni=flying-escargot.rooster465.autos&type=tcp&fp=chrome#%F0%9F%87%AF%F0%9F%87%B5%20Japan%20%7C%20G-Core%20Labs%206
-trojan://FC60532879@intense-wildcat.rooster465.autos:443?sni=intense-wildcat.rooster465.autos&type=tcp&fp=chrome#%F0%9F%87%AF%F0%9F%87%B5%20Japan%20%7C%20G-Core%20Labs%207
-trojan://IQ68037294@major-duckling.rooster465.autos:443?security=tls&sni=major-duckling.rooster465.autos#%F0%9F%87%AF%F0%9F%87%B5%20Japan%20%7C%20G-Core%20Labs%208
-trojan://IQ68037294@proud-honeybee.rooster465.autos:443?type=tcp&security=tls&sni=proud-honeybee.rooster465.autos&fp=chrome#%F0%9F%87%AF%F0%9F%87%B5%20Japan%20%7C%20G-Core%20Labs%209
-trojan://AQ71834695@alert-monster.rooster465.autos:443?Telegram=@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad#%F0%9F%87%AF%F0%9F%87%B5%20Japan%20%7C%20G-Core%20Labs%2010
-trojan://IQ68037294@stirring-bat.rooster465.autos:443?type=tcp&security=tls&sni=stirring-bat.rooster465.autos&fp=chrome#%F0%9F%87%AF%F0%9F%87%B5%20Japan%20%7C%20G-Core%20Labs%2011
-trojan://IQ68037294@flexible-pony.rooster465.autos:443?allowInsecure=0&sni=flexible-pony.rooster465.autos#%F0%9F%87%AF%F0%9F%87%B5%20Japan%20%7C%20G-Core%20Labs%2012
-trojan://WG39087154@upright-impala.rooster465.autos:443?sni=upright-impala.rooster465.autos&type=tcp&fp=chrome#%F0%9F%87%AF%F0%9F%87%B5%20Japan%20%7C%20G-Core%20Labs%2013
-trojan://HW85960347@pretty-clam.rooster465.autos:443?type=tcp&security=tls&sni=pretty-clam.rooster465.autos#%F0%9F%87%AF%F0%9F%87%B5%20Japan%20%7C%20G-Core%20Labs%2014
-trojan://WG39087154@moral-buzzard.rooster465.autos:443?sni=moral-buzzard.rooster465.autos&type=tcp&fp=chrome#%F0%9F%87%AF%F0%9F%87%B5%20Japan%20%7C%20G-Core%20Labs%2015
-trojan://IQ68037294@moved-osprey.rooster465.autos:443?security=tls&sni=moved-osprey.rooster465.autos#%F0%9F%87%AF%F0%9F%87%B5%20Japan%20%7C%20G-Core%20Labs%2016
-trojan://WG39087154@maximum-elk.rooster465.autos:443?sni=maximum-elk.rooster465.autos&type=tcp&fp=chrome#%F0%9F%87%AF%F0%9F%87%B5%20Japan%20%7C%20G-Core%20Labs%2017
-trojan://IQ68037294@moral-buzzard.rooster465.autos:443?security=tls&sni=moral-buzzard.rooster465.autos#%F0%9F%87%AF%F0%9F%87%B5%20Japan%20%7C%20G-Core%20Labs%2018
-trojan://WG39087154@major-duckling.rooster465.autos:443?sni=major-duckling.rooster465.autos&type=tcp&fp=chrome#%F0%9F%87%AF%F0%9F%87%B5%20Japan%20%7C%20G-Core%20Labs%2019
-trojan://IQ68037294@square-anchovy.rooster465.autos:443?security=tls&sni=square-anchovy.rooster465.autos#%F0%9F%87%AF%F0%9F%87%B5%20Japan%20%7C%20G-Core%20Labs%2020
-trojan://JT80563429@inspired-hound.rooster465.autos:443?sni=inspired-hound.rooster465.autos&peer=inspired-hound.rooster465.autos&security=tls#%F0%9F%87%AF%F0%9F%87%B5%20Japan%20%7C%20G-Core%20Labs%2021
-trojan://IQ68037294@frank-piranha.rooster465.autos:443?type=tcp&security=tls&sni=frank-piranha.rooster465.autos&fp=chrome#%F0%9F%87%AF%F0%9F%87%B5%20Japan%20%7C%20G-Core%20Labs%2022
-trojan://FC60532879@rested-pheasant.rooster465.autos:443?security=tls&sni=rested-pheasant.rooster465.autos#%F0%9F%87%AF%F0%9F%87%B5%20Japan%20%7C%20G-Core%20Labs%2023
-trojan://FC60532879@wise-longhorn.rooster465.autos:443?security=tls&sni=wise-longhorn.rooster465.autos#%F0%9F%87%AF%F0%9F%87%B5%20Japan%20%7C%20G-Core%20Labs%2024
-trojan://IQ68037294@pumped-eft.rooster465.autos:443?type=tcp&security=tls&sni=pumped-eft.rooster465.autos&fp=chrome#%F0%9F%87%AF%F0%9F%87%B5%20Japan%20%7C%20G-Core%20Labs%2025
-trojan://IQ68037294@sweeping-parakeet.rooster465.autos:443?Telegram=@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad,@GozargahAzad#%F0%9F%87%AF%F0%9F%87%B5%20Japan%20%7C%20G-Core%20Labs%2026
-vless://fc1b3bda-b226-452a-8c5c-b0e36a1f8f88@45.151.152.28:443?&security=reality&flow=xtls-rprx-vision&pbk=eaRNeC8fccrx0nBNvBpAXZgK4m4FxfnQ-t0W7NOM7mU&sid=e53048e82bb20077&fp=qq&alpn=http%2F1.1&sni=asia.cendora.ru&type=tcp&headerType=none&host=asia.cendora.ru&path=%2F#%F0%9F%87%AF%F0%9F%87%B5%20Japan%20%7C%20Kamatera%201
-vless://eb8613e3-8393-4cff-a3ad-6501fd4adc63@152.69.195.67:47878?type=tcp&security=none&encryption=none&sni=152.69.195.67#%F0%9F%87%AF%F0%9F%87%B5%20Japan%20%7C%20Oracle%201
-vless://3dc3b4ef-c3f6-4ef3-9e03-e0a8fd82b7be@43.165.186.226:443?type=tcp&security=reality&encryption=none&fp=firefox&pbk=aW52dpxW-umVvMOHPRCDsnHnJjuM8_S1FScLJQrVrG8&sid=a32e8c4a&sni=www.sony.com#%F0%9F%87%AF%F0%9F%87%B5%20Japan%20%7C%20Shenzhen%20Tencent%201
-vless://8bba3194-4856-46d1-8319-075817d87eb1@jp1.cyphervpn.pro:443?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=USffNprEM08MHiuVy5bj6-kvxugxycuZcgQDFJyz2Wc&sid=8f9d033ad6d2cebf&sni=jp1.cyphervpn.pro#%F0%9F%87%AF%F0%9F%87%B5%20Japan%20%7C%20Vladislav%20Nitsenko%201
-vless://8bba3194-4856-46d1-8319-075817d87eb1@31.76.91.71:443?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=USffNprEM08MHiuVy5bj6-kvxugxycuZcgQDFJyz2Wc&sid=8f9d033ad6d2cebf&sni=jp1.cyphervpn.pro#%F0%9F%87%AF%F0%9F%87%B5%20Japan%20%7C%20Vladislav%20Nitsenko%202
-vless://98584e41-e68f-413a-b46a-141984528599@193.111.30.24:55489?flow=xtls-rprx-vision&fp=chrome&pbk=0Z53IxSia-XcWP-pWp0_Zf4vqlUL3bba1YpqndXjEwU&security=reality&sid=c0651179&sni=apple.com#%F0%9F%87%AF%F0%9F%87%B5%20Japan%20%7C%20xTom%20Japan%201
+vless://814bd064-544d-4255-a070-5705c03f6da9@3.114.220.22:18007?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0&sid=48050fab&sni=www.apple.com#%F0%9F%87%AF%F0%9F%87%B5%20Japan%20%7C%20Amazon%20Technologies%203
+ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M=@149.22.87.241:443?#%F0%9F%87%AF%F0%9F%87%B5%20Japan%20%7C%20Datacamp%201
+ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M@149.22.87.204:443?#%F0%9F%87%AF%F0%9F%87%B5%20Japan%20%7C%20Datacamp%202
+ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M@149.22.87.240:443?#%F0%9F%87%AF%F0%9F%87%B5%20Japan%20%7C%20Datacamp%203
+vless://8bba3194-4856-46d1-8319-075817d87eb1@31.76.91.71:443?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=USffNprEM08MHiuVy5bj6-kvxugxycuZcgQDFJyz2Wc&sid=8f9d033ad6d2cebf&sni=jp1.cyphervpn.pro#%F0%9F%87%AF%F0%9F%87%B5%20Japan%20%7C%20Vladislav%20Nitsenko%201
+vless://8bba3194-4856-46d1-8319-075817d87eb1@jp1.cyphervpn.pro:443?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=USffNprEM08MHiuVy5bj6-kvxugxycuZcgQDFJyz2Wc&sid=8f9d033ad6d2cebf&sni=jp1.cyphervpn.pro#%F0%9F%87%AF%F0%9F%87%B5%20Japan%20%7C%20Vladislav%20Nitsenko%202
