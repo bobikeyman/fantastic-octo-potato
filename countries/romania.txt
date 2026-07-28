@@ -5,5 +5,5 @@
 #profile-web-page-url: https://bobivpn.netlify.app/
 #announce: base64:8J+Ht/Cfh7QgQm9iaVZQTiDigJQgUm9tYW5pYQrimqEgMiDQv9GA0L7QstC10YDQtdC90L3Ri9GFINGB0LXRgNCy0LXRgNC+0LI=
 
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpRRld6Q3cydVg5QjlpNnFBWWVGQklF@bogging-eyeteeth-fly.freesocks.work:443?#%F0%9F%87%B7%F0%9F%87%B4%20Romania%20%7C%20Dotro%20Telecom%201
+vless://fc1b3bda-b226-452a-8c5c-b0e36a1f8f88@79.108.161.101:443?security=reality&flow=xtls-rprx-vision&type=raw&sni=eu-central.cendora.ru&fp=qq&pbk=b-Cm9hX-3UHsS1L_lnUB6AMjuKhlN1IDdBbZ506itjI&sid=00bca5982f82d083#%F0%9F%87%B7%F0%9F%87%B4%20Romania%20%7C%20Kamatera%201
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpYRjBrbHc3ODcwdlhuM3VRSXhlMTlR@146.70.254.238:1080?#%F0%9F%87%B7%F0%9F%87%B4%20Romania%20%7C%20M247%20Europe%201
