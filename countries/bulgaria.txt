@@ -5,5 +5,5 @@
 #profile-web-page-url: https://bobivpn.netlify.app/
 #announce: base64:8J+Hp/Cfh6wgQm9iaVZQTiDigJQgQnVsZ2FyaWEK4pqhIDIg0L/RgNC+0LLQtdGA0LXQvdC90YvRhSDRgdC10YDQstC10YDQvtCy
 
-vless://f165affe-ffb4-4f13-a081-f14434e51152@bolg1.panel11.ru:443?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=Ffbj8WzPUpY_qNYoIusH8c5kuYmZD8599nZxFxxKtlY&sid=67ef08f70e8ae1bb&sni=bolg1.panel11.ru#%F0%9F%87%A7%F0%9F%87%AC%20Bulgaria%20%7C%20Alexhost%201
-ss://YWVzLTI1Ni1nY206bEdxczk1UWtGSG8yTlY@38.244.132.14:5499?#%F0%9F%87%A7%F0%9F%87%AC%20Bulgaria%20%7C%20M247%20Europe%201
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpYRjBrbHc3ODcwdlhuM3VRSXhlMTlR@146.70.53.62:1080?#%F0%9F%87%A7%F0%9F%87%AC%20Bulgaria%20%7C%20M247%20Europe%201
+ss://YWVzLTI1Ni1nY206bEdxczk1UWtGSG8yTlY@38.244.132.14:5499?#%F0%9F%87%A7%F0%9F%87%AC%20Bulgaria%20%7C%20M247%20Europe%202
