@@ -3,17 +3,16 @@
 #subscription-userinfo: upload=0; download=0; total=107374182400; expire=0
 #support-url: https://bobivpn.netlify.app/
 #profile-web-page-url: https://bobivpn.netlify.app/
-#announce: base64:8J+Hr/Cfh7UgQm9iaVZQTiDigJQgSmFwYW4K4pqhIDEzINC/0YDQvtCy0LXRgNC10L3QvdGL0YUg0YHQtdGA0LLQtdGA0L7Qsg==
+#announce: base64:8J+Hr/Cfh7UgQm9iaVZQTiDigJQgSmFwYW4K4pqhIDEyINC/0YDQvtCy0LXRgNC10L3QvdGL0YUg0YHQtdGA0LLQtdGA0L7Qsg==
 
 vless://e01fcb68-3112-49da-b85d-dffb799cfc9b@jp.wxgqlfx.top:26518?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=1fa6iCY7vhoQyKu91FeaK04FN-mr1qeHnrtdyLZ79mk&sid=6caead99&sni=github.com&udp=1#%F0%9F%87%AF%F0%9F%87%B5%20Japan%20%7C%20Akile%201
-vless://814bd064-544d-4255-a070-5705c03f6da9@3.114.220.22:18007?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0&sid=48050fab&sni=www.apple.com#%F0%9F%87%AF%F0%9F%87%B5%20Japan%20%7C%20Amazon%20Technologies%201
-vless://814bd064-544d-4255-a070-5705c03f6da9@3.114.220.22:19645?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0&sid=48050fab&sni=www.apple.com#%F0%9F%87%AF%F0%9F%87%B5%20Japan%20%7C%20Amazon%20Technologies%202
-vless://814bd064-544d-4255-a070-5705c03f6da9@3.114.220.22:10583?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0&sid=48050fab&sni=www.apple.com#%F0%9F%87%AF%F0%9F%87%B5%20Japan%20%7C%20Amazon%20Technologies%203
+vless://814bd064-544d-4255-a070-5705c03f6da9@3.114.220.22:10583?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0&sid=48050fab&sni=www.apple.com#%F0%9F%87%AF%F0%9F%87%B5%20Japan%20%7C%20Amazon%20Technologies%201
+vless://814bd064-544d-4255-a070-5705c03f6da9@3.114.220.22:18007?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0&sid=48050fab&sni=www.apple.com#%F0%9F%87%AF%F0%9F%87%B5%20Japan%20%7C%20Amazon%20Technologies%202
+vless://814bd064-544d-4255-a070-5705c03f6da9@3.114.220.22:19645?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0&sid=48050fab&sni=www.apple.com#%F0%9F%87%AF%F0%9F%87%B5%20Japan%20%7C%20Amazon%20Technologies%203
 vless://814bd064-544d-4255-a070-5705c03f6da9@103.75.118.228:11452?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=k2hPp0tTW0Da-HK94wYpSCLbuK44LfGqC2MSJIM1Ti0&sid=48050fab&sni=www.apple.com#%F0%9F%87%AF%F0%9F%87%B5%20Japan%20%7C%20BrainStorm%20Network%201
-ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M@149.22.87.241:443?#%F0%9F%87%AF%F0%9F%87%B5%20Japan%20%7C%20Datacamp%201
-ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M=@149.22.87.240:443?#%F0%9F%87%AF%F0%9F%87%B5%20Japan%20%7C%20Datacamp%202
-ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M@149.22.87.204:443?#%F0%9F%87%AF%F0%9F%87%B5%20Japan%20%7C%20Datacamp%203
-vless://9a15843f-c194-4625-b058-29833674acc0@dsm7.473221.xyz:34761/?type=tcp&encryption=none&flow=xtls-rprx-vision&sni=updates.cdn-apple.com&fp=edge&security=reality&pbk=vpyTFpAW_aDyAozpeWyB4Q5orhkbdxZ82V0ZPt7A9U8&sid=ad568d7e89114c24#%F0%9F%87%AF%F0%9F%87%B5%20Japan%20%7C%20Leaseweb%20Japan%20K.K%201
+ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M@149.22.87.204:443?#%F0%9F%87%AF%F0%9F%87%B5%20Japan%20%7C%20Datacamp%201
+ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M=@149.22.87.241:443?#%F0%9F%87%AF%F0%9F%87%B5%20Japan%20%7C%20Datacamp%202
+ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M@149.22.87.240:443?#%F0%9F%87%AF%F0%9F%87%B5%20Japan%20%7C%20Datacamp%203
 vless://eb8613e3-8393-4cff-a3ad-6501fd4adc63@152.69.195.67:47878?type=tcp&security=none&encryption=none&sni=152.69.195.67#%F0%9F%87%AF%F0%9F%87%B5%20Japan%20%7C%20Oracle%201
 vless://3dc3b4ef-c3f6-4ef3-9e03-e0a8fd82b7be@43.165.186.226:443?type=tcp&security=reality&encryption=none&fp=chrome&pbk=aW52dpxW-umVvMOHPRCDsnHnJjuM8_S1FScLJQrVrG8&sid=a32e8c4a&sni=www.sony.com#%F0%9F%87%AF%F0%9F%87%B5%20Japan%20%7C%20Shenzhen%20Tencent%201
 vless://8bba3194-4856-46d1-8319-075817d87eb1@31.76.91.71:443?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=USffNprEM08MHiuVy5bj6-kvxugxycuZcgQDFJyz2Wc&sid=8f9d033ad6d2cebf&sni=jp1.cyphervpn.pro#%F0%9F%87%AF%F0%9F%87%B5%20Japan%20%7C%20Vladislav%20Nitsenko%201
