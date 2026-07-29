@@ -3,27 +3,24 @@
 #subscription-userinfo: upload=0; download=0; total=107374182400; expire=0
 #support-url: https://bobivpn.netlify.app/
 #profile-web-page-url: https://bobivpn.netlify.app/
-#announce: base64:8J+HrPCfh6cgQm9iaVZQTiDigJQgVW5pdGVkIEtpbmdkb20K4pqhIDIyINC/0YDQvtCy0LXRgNC10L3QvdGL0YUg0YHQtdGA0LLQtdGA0L7Qsg==
+#announce: base64:8J+HrPCfh6cgQm9iaVZQTiDigJQgVW5pdGVkIEtpbmdkb20K4pqhIDE5INC/0YDQvtCy0LXRgNC10L3QvdGL0YUg0YHQtdGA0LLQtdGA0L7Qsg==
 
 vless://564082ff-cf3c-48db-9e10-8ad2312847b4@213.176.67.31:443?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=TlpXTLz1Y-v8B6q9MX55U6eypjfL0LCSNE5zQP4yRHw&sid=bbc68cec8bb8d2e3&sni=node4.mxvpn.dev#%F0%9F%87%AC%F0%9F%87%A7%20United%20Kingdom%20%7C%20Aeza%20International%201
 vless://564082ff-cf3c-48db-9e10-8ad2312847b4@node3.mxvpn.dev:443?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=TlpXTLz1Y-v8B6q9MX55U6eypjfL0LCSNE5zQP4yRHw&sid=bbc68cec8bb8d2e3&sni=node3.mxvpn.dev#%F0%9F%87%AC%F0%9F%87%A7%20United%20Kingdom%20%7C%20Aeza%20International%202
 vless://564082ff-cf3c-48db-9e10-8ad2312847b4@node2.mxvpn.dev:443?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&pbk=TlpXTLz1Y-v8B6q9MX55U6eypjfL0LCSNE5zQP4yRHw&sid=bbc68cec8bb8d2e3&sni=node2.mxvpn.dev#%F0%9F%87%AC%F0%9F%87%A7%20United%20Kingdom%20%7C%20Aeza%20International%203
 vless://564082ff-cf3c-48db-9e10-8ad2312847b4@node4.mxvpn.dev:443?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=TlpXTLz1Y-v8B6q9MX55U6eypjfL0LCSNE5zQP4yRHw&sid=bbc68cec8bb8d2e3&sni=node4.mxvpn.dev#%F0%9F%87%AC%F0%9F%87%A7%20United%20Kingdom%20%7C%20Aeza%20International%204
+vless://28204a34-3eee-4864-92e5-4884676e53ca@109.120.157.207:26978?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=5FP1JM9_sA8Y30vJ3dmAzcpVok0_aT2PRKA__bovYSA&sid=84f6&sni=ikea.com&spx=/8717441b2dd2342#%F0%9F%87%AC%F0%9F%87%A7%20United%20Kingdom%20%7C%20Aeza%20International%205
 vless://3571b127-4b3b-4c01-8249-1684daf586b5@149.248.79.235:17301?type=grpc&security=reality&fp=firefox&pbk=nadshlxG0RqC6om__cf9E4F6qolRmHJLcNtReBTr9xY&sid=5d&sni=aws.amazon.com#%F0%9F%87%AC%F0%9F%87%A7%20United%20Kingdom%20%7C%20BL%20Networks%201
 ss://YWVzLTI1Ni1nY206UmV4bkJnVTdFVjVBRHhH@94.156.250.148:7001?#%F0%9F%87%AC%F0%9F%87%A7%20United%20Kingdom%20%7C%20BrainStorm%20Network%201
 vless://52b71b75-4b77-4cec-990b-046ec1938e1f@67.159.56.57:443?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&pbk=j5qmR8E9er-0n5zZbK6s_SdvYm-tYlraXVYm49ArWS8&sid=60debb3ab744d8ce&sni=uk.bvps.cloud#%F0%9F%87%AC%F0%9F%87%A7%20United%20Kingdom%20%7C%20FDCservers.net%201
-ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M=@141.98.101.179:443?#%F0%9F%87%AC%F0%9F%87%A7%20United%20Kingdom%20%7C%20M247%20Europe%201
-ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M@141.98.101.182:443?#%F0%9F%87%AC%F0%9F%87%A7%20United%20Kingdom%20%7C%20M247%20Europe%202
-ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M=@141.98.101.181:443?#%F0%9F%87%AC%F0%9F%87%A7%20United%20Kingdom%20%7C%20M247%20Europe%203
-ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M@141.98.101.178:443?#%F0%9F%87%AC%F0%9F%87%A7%20United%20Kingdom%20%7C%20M247%20Europe%204
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpNR1U0WmpWa01HTmhZMlkzWXpNME5tSXhNRGd5TkRRNU9HVmpaalkyWTJZPQ@144.24.227.218:61312?#%F0%9F%87%AC%F0%9F%87%A7%20United%20Kingdom%20%7C%20Oracle%201
-vless://2e8beadd-99bf-4fda-8692-8493886504bc@104.21.56.8:8443?type=ws&security=tls&fp=chrome&sni=ad-007.cloud25075.info#%F0%9F%87%AC%F0%9F%87%A7%20United%20Kingdom%20%7C%20OVH%201
+vless://2e8beadd-99bf-4fda-8692-8493886504bc@172.64.80.1:8443?type=ws&security=tls&fp=chrome&sni=ad-007.cloud25075.info#%F0%9F%87%AC%F0%9F%87%A7%20United%20Kingdom%20%7C%20OVH%201
 vless://2e8beadd-99bf-4fda-8692-8493886504bc@172.67.175.34:8443?type=ws&security=tls&fp=chrome&sni=ad-007.cloud25075.info#%F0%9F%87%AC%F0%9F%87%A7%20United%20Kingdom%20%7C%20OVH%202
-vless://9047efd2-5aa4-4c9c-a58f-a5791b06c79e@172.64.80.1:8443?type=ws&security=tls&sni=ad-010.limaklhc6.info#%F0%9F%87%AC%F0%9F%87%A7%20United%20Kingdom%20%7C%20OVH%203
-vless://9047efd2-5aa4-4c9c-a58f-a5791b06c79e@172.67.188.128:8443?type=ws&security=tls&sni=ad-010.limaklhc6.info#%F0%9F%87%AC%F0%9F%87%A7%20United%20Kingdom%20%7C%20OVH%204
-vless://9047efd2-5aa4-4c9c-a58f-a5791b06c79e@ad-020.cloud25075.info:8443?type=ws&security=tls&fp=chrome&sni=ad-020.cloud25075.info#%F0%9F%87%AC%F0%9F%87%A7%20United%20Kingdom%20%7C%20OVH%205
-vless://9047efd2-5aa4-4c9c-a58f-a5791b06c79e@172.67.175.34:8443?type=ws&security=tls&fp=chrome&sni=ad-020.cloud25075.info#%F0%9F%87%AC%F0%9F%87%A7%20United%20Kingdom%20%7C%20OVH%206
+vless://2e8beadd-99bf-4fda-8692-8493886504bc@104.21.56.8:8443?type=ws&security=tls&fp=chrome&sni=ad-007.cloud25075.info#%F0%9F%87%AC%F0%9F%87%A7%20United%20Kingdom%20%7C%20OVH%203
+vless://2e8beadd-99bf-4fda-8692-8493886504bc@ad-007.cloud25075.info:8443?type=ws&security=tls#%F0%9F%87%AC%F0%9F%87%A7%20United%20Kingdom%20%7C%20OVH%204
+vless://9047efd2-5aa4-4c9c-a58f-a5791b06c79e@ad-010.vector2llqn.info:8443?type=ws&security=tls&fp=chrome&sni=ad-010.vector2llqn.info#%F0%9F%87%AC%F0%9F%87%A7%20United%20Kingdom%20%7C%20OVH%205
+vless://9047efd2-5aa4-4c9c-a58f-a5791b06c79e@172.64.80.1:8443?type=ws&security=tls&fp=chrome&sni=ad-010.vector9nmb3.info#%F0%9F%87%AC%F0%9F%87%A7%20United%20Kingdom%20%7C%20OVH%206
 vless://9047efd2-5aa4-4c9c-a58f-a5791b06c79e@172.67.147.94:8443?type=ws&security=tls&fp=chrome&sni=ad-010.vector9nmb3.info#%F0%9F%87%AC%F0%9F%87%A7%20United%20Kingdom%20%7C%20OVH%207
-vless://9047efd2-5aa4-4c9c-a58f-a5791b06c79e@ad-010.vector9nmb3.info:8443?type=ws&security=tls&fp=chrome&sni=ad-010.vector9nmb3.info#%F0%9F%87%AC%F0%9F%87%A7%20United%20Kingdom%20%7C%20OVH%208
+vless://9047efd2-5aa4-4c9c-a58f-a5791b06c79e@ad-020.cloud25075.info:8443?type=ws&security=tls&fp=chrome&sni=ad-020.cloud25075.info#%F0%9F%87%AC%F0%9F%87%A7%20United%20Kingdom%20%7C%20OVH%208
+vless://9047efd2-5aa4-4c9c-a58f-a5791b06c79e@ad-010.vector9nmb3.info:8443?type=ws&security=tls&fp=chrome&sni=ad-010.vector9nmb3.info#%F0%9F%87%AC%F0%9F%87%A7%20United%20Kingdom%20%7C%20OVH%209
+vless://9047efd2-5aa4-4c9c-a58f-a5791b06c79e@ad-010.zen2bswa.info:8443?type=ws&security=tls&sni=ad-010.zen2bswa.info#%F0%9F%87%AC%F0%9F%87%A7%20United%20Kingdom%20%7C%20OVH%2010
 vless://03707fb7-0990-440f-88f6-b0e0f7242a38@104.16.75.78:443?type=ws&security=tls&fp=chrome&sni=germany-1.ariyuz.org#%F0%9F%87%AC%F0%9F%87%A7%20United%20Kingdom%20%7C%20Packet%20Star%20Networks%201
-vless://649291ba-27db-423a-a34b-6ddade44973f@status.capitaloneok.com:443?type=grpc&security=tls&fp=firefox&sni=status.capitaloneok.com&serviceName=sync.v2.PushService#%F0%9F%87%AC%F0%9F%87%A7%20United%20Kingdom%20%7C%20TrueServer%201
