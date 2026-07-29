@@ -6,17 +6,17 @@
 #announce: base64:8J+HqPCfh6YgQm9iaVZQTiDigJQgQ2FuYWRhCuKaoSAxNSDQv9GA0L7QstC10YDQtdC90L3Ri9GFINGB0LXRgNCy0LXRgNC+0LI=
 
 ss://YWVzLTI1Ni1nY206S2l4THZLendqZWtHMDBybQ==@185.196.61.82:8080?#%F0%9F%87%A8%F0%9F%87%A6%20Canada%20%7C%20BrainStorm%20Network%201
-vless://11e57eeb-ffdf-4983-a9fa-ad352dea7253@45.206.5.122:443?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=pPi-WO8qQFFZ9UJWNLW9YClbjcoAAZWJQ2_FM3Kjhz8&sid=500aec9e9e5e2212&sni=storage.yandex.net&path=/#%F0%9F%87%A8%F0%9F%87%A6%20Canada%20%7C%20Datacamp%201
-ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M=@149.22.95.183:443?#%F0%9F%87%A8%F0%9F%87%A6%20Canada%20%7C%20Datacamp%202
+ss://YWVzLTEyOC1nY206c2hhZG93c29ja3M=@149.22.95.183:443?#%F0%9F%87%A8%F0%9F%87%A6%20Canada%20%7C%20Datacamp%201
+vless://11e57eeb-ffdf-4983-a9fa-ad352dea7253@45.206.5.122:443?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=pPi-WO8qQFFZ9UJWNLW9YClbjcoAAZWJQ2_FM3Kjhz8&sid=500aec9e9e5e2212&sni=storage.yandex.net&path=/#%F0%9F%87%A8%F0%9F%87%A6%20Canada%20%7C%20Datacamp%202
 ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpYRjBrbHc3ODcwdlhuM3VRSXhlMTlR@72.10.173.91:1080?#%F0%9F%87%A8%F0%9F%87%A6%20Canada%20%7C%20GloboTech%201
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpYRjBrbHc3ODcwdlhuM3VRSXhlMTlR@68.168.116.6:1080?#%F0%9F%87%A8%F0%9F%87%A6%20Canada%20%7C%20GloboTech%202
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpYRjBrbHc3ODcwdlhuM3VRSXhlMTlR@217.138.213.38:1080?#%F0%9F%87%A8%F0%9F%87%A6%20Canada%20%7C%20M247%20Europe%201
-vless://304a1e62-eb26-4b44-994e-b96a70fff9b4@ad-013.zen2bswa.info:8443?type=ws&security=tls&fp=chrome&sni=ad-013.zen2bswa.info#%F0%9F%87%A8%F0%9F%87%A6%20Canada%20%7C%20OVH%201
-vless://304a1e62-eb26-4b44-994e-b96a70fff9b4@ad-013.orbitqgr7v.info:8443?type=ws&security=tls&fp=chrome&sni=ad-013.orbitqgr7v.info#%F0%9F%87%A8%F0%9F%87%A6%20Canada%20%7C%20OVH%202
-vless://304a1e62-eb26-4b44-994e-b96a70fff9b4@104.21.18.9:8443?type=ws&security=tls&fp=chrome&sni=ad-013.orbitqgr7v.info#%F0%9F%87%A8%F0%9F%87%A6%20Canada%20%7C%20OVH%203
+vless://304a1e62-eb26-4b44-994e-b96a70fff9b4@104.21.57.111:8443?type=ws&security=tls&fp=chrome&sni=ad-013.pixel9xdmq.info#%F0%9F%87%A8%F0%9F%87%A6%20Canada%20%7C%20OVH%201
+vless://661f395d-b153-4199-a04b-693f5fe7f261@158.69.112.254:443?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&pbk=wo417FrFdjy7ZhccQ-VWGZEKcoCHSEfyWcJT1pIVc1Y&sid=3d3c1e645f763ee3&sni=www.speedtest.net#%F0%9F%87%A8%F0%9F%87%A6%20Canada%20%7C%20OVH%202
+vless://304a1e62-eb26-4b44-994e-b96a70fff9b4@172.67.188.128:8443?type=ws&security=tls&fp=chrome&sni=ad-013.limaklhc6.info#%F0%9F%87%A8%F0%9F%87%A6%20Canada%20%7C%20OVH%203
 vless://304a1e62-eb26-4b44-994e-b96a70fff9b4@104.21.40.223:8443?type=ws&security=tls&fp=chrome&sni=ad-013.limaklhc6.info#%F0%9F%87%A8%F0%9F%87%A6%20Canada%20%7C%20OVH%204
-vless://661f395d-b153-4199-a04b-693f5fe7f261@158.69.112.254:443?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&pbk=wo417FrFdjy7ZhccQ-VWGZEKcoCHSEfyWcJT1pIVc1Y&sid=3d3c1e645f763ee3&sni=www.speedtest.net#%F0%9F%87%A8%F0%9F%87%A6%20Canada%20%7C%20OVH%205
-vless://304a1e62-eb26-4b44-994e-b96a70fff9b4@172.67.179.33:8443?type=ws&security=tls&fp=chrome&sni=ad-013.orbitqgr7v.info#%F0%9F%87%A8%F0%9F%87%A6%20Canada%20%7C%20OVH%206
-vless://304a1e62-eb26-4b44-994e-b96a70fff9b4@172.67.188.128:8443?type=ws&security=tls&fp=chrome&sni=ad-013.limaklhc6.info#%F0%9F%87%A8%F0%9F%87%A6%20Canada%20%7C%20OVH%207
-vless://304a1e62-eb26-4b44-994e-b96a70fff9b4@172.67.206.114:8443?type=ws&security=tls&fp=chrome&sni=ad-013.fluxmxd18.info#%F0%9F%87%A8%F0%9F%87%A6%20Canada%20%7C%20OVH%208
-vless://304a1e62-eb26-4b44-994e-b96a70fff9b4@104.21.57.111:8443?type=ws&security=tls&fp=chrome&sni=ad-013.pixel9xdmq.info#%F0%9F%87%A8%F0%9F%87%A6%20Canada%20%7C%20OVH%209
+vless://304a1e62-eb26-4b44-994e-b96a70fff9b4@ad-013.fluxmxd18.info:8443?type=ws&security=tls&fp=chrome&sni=ad-013.fluxmxd18.info#%F0%9F%87%A8%F0%9F%87%A6%20Canada%20%7C%20OVH%205
+vless://304a1e62-eb26-4b44-994e-b96a70fff9b4@ad-013.zen2bswa.info:8443?type=ws&security=tls&fp=chrome&sni=ad-013.zen2bswa.info#%F0%9F%87%A8%F0%9F%87%A6%20Canada%20%7C%20OVH%206
+vless://304a1e62-eb26-4b44-994e-b96a70fff9b4@172.67.206.114:8443?type=ws&security=tls&fp=chrome&sni=ad-013.fluxmxd18.info#%F0%9F%87%A8%F0%9F%87%A6%20Canada%20%7C%20OVH%207
+vless://304a1e62-eb26-4b44-994e-b96a70fff9b4@104.21.77.92:8443?type=ws&security=tls&fp=chrome&sni=ad-013.fluxmxd18.info#%F0%9F%87%A8%F0%9F%87%A6%20Canada%20%7C%20OVH%208
+vless://304a1e62-eb26-4b44-994e-b96a70fff9b4@ad-013.orbitqgr7v.info:8443?type=ws&security=tls&fp=chrome&sni=ad-013.orbitqgr7v.info#%F0%9F%87%A8%F0%9F%87%A6%20Canada%20%7C%20OVH%209
+vless://304a1e62-eb26-4b44-994e-b96a70fff9b4@172.67.179.33:8443?type=ws&security=tls&fp=chrome&sni=ad-013.orbitqgr7v.info#%F0%9F%87%A8%F0%9F%87%A6%20Canada%20%7C%20OVH%2010
+vless://304a1e62-eb26-4b44-994e-b96a70fff9b4@104.21.18.9:8443?type=ws&security=tls&fp=chrome&sni=ad-013.orbitqgr7v.info#%F0%9F%87%A8%F0%9F%87%A6%20Canada%20%7C%20OVH%2011
