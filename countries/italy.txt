@@ -3,14 +3,9 @@
 #subscription-userinfo: upload=0; download=0; total=107374182400; expire=0
 #support-url: https://bobivpn.netlify.app/
 #profile-web-page-url: https://bobivpn.netlify.app/
-#announce: base64:8J+HrvCfh7kgQm9iaVZQTiDigJQgSXRhbHkK4pqhIDkg0L/RgNC+0LLQtdGA0LXQvdC90YvRhSDRgdC10YDQstC10YDQvtCy
+#announce: base64:8J+HrvCfh7kgQm9iaVZQTiDigJQgSXRhbHkK4pqhIDQg0L/RgNC+0LLQtdGA0LXQvdC90YvRhSDRgdC10YDQstC10YDQvtCy
 
 ss://YWVzLTI1Ni1nY206UmV4bkJnVTdFVjVBRHhH@185.213.20.110:7001?#%F0%9F%87%AE%F0%9F%87%B9%20Italy%20%7C%20BrainStorm%20Network%201
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpYRjBrbHc3ODcwdlhuM3VRSXhlMTlR@185.128.27.178:1080?#%F0%9F%87%AE%F0%9F%87%B9%20Italy%20%7C%20M247%20Europe%201
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpYRjBrbHc3ODcwdlhuM3VRSXhlMTlR@91.193.5.112:1080?#%F0%9F%87%AE%F0%9F%87%B9%20Italy%20%7C%20M247%20Europe%202
-vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@ronaldo15.fordnsdirect.shop:8880?type=grpc&mode=gun#%F0%9F%87%AE%F0%9F%87%B9%20Italy%20%7C%20Scaleway%201
-vless://e4824193-4f54-453b-d037-88368e85ef0e@104.17.239.248:443?type=grpc&security=tls&sni=sca12.afterdomain.shop&mode=gun#%F0%9F%87%AE%F0%9F%87%B9%20Italy%20%7C%20Scaleway%202
-vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@ronaldo17.fordnsdirect.shop:8880?type=grpc&mode=gun#%F0%9F%87%AE%F0%9F%87%B9%20Italy%20%7C%20Scaleway%203
-vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@ronaldo13.fordnsdirect.shop:8880?type=grpc&mode=gun#%F0%9F%87%AE%F0%9F%87%B9%20Italy%20%7C%20Scaleway%204
-vless://e4824193-4f54-453b-d037-88368e85ef0e@104.16.9.20:443?type=grpc&security=tls&fp=firefox&sni=sca12.afterdomain.shop#%F0%9F%87%AE%F0%9F%87%B9%20Italy%20%7C%20Scaleway%205
-vless://e4824193-4f54-453b-d037-88368e85ef0e@185.255.178.131:443?type=grpc&security=tls&sni=sca12.afterdomain.shop&mode=gun#%F0%9F%87%AE%F0%9F%87%B9%20Italy%20%7C%20Scaleway%206
+vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@ronaldo17.fordnsdirect.shop:8880?type=grpc&mode=gun#%F0%9F%87%AE%F0%9F%87%B9%20Italy%20%7C%20Scaleway%201
+vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@ronaldo15.fordnsdirect.shop:8880?type=grpc&mode=gun#%F0%9F%87%AE%F0%9F%87%B9%20Italy%20%7C%20Scaleway%202
+vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@ronaldo13.fordnsdirect.shop:8880?type=grpc&mode=gun#%F0%9F%87%AE%F0%9F%87%B9%20Italy%20%7C%20Scaleway%203
