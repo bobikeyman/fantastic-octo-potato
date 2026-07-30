@@ -7,5 +7,5 @@
 
 ss://YWVzLTI1Ni1nY206UmV4bkJnVTdFVjVBRHhH@185.213.20.110:7001?#%F0%9F%87%AE%F0%9F%87%B9%20Italy%20%7C%20BrainStorm%20Network%201
 vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@ronaldo17.fordnsdirect.shop:8880?type=grpc&mode=gun#%F0%9F%87%AE%F0%9F%87%B9%20Italy%20%7C%20Scaleway%201
-vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@ronaldo15.fordnsdirect.shop:8880?type=grpc&mode=gun#%F0%9F%87%AE%F0%9F%87%B9%20Italy%20%7C%20Scaleway%202
-vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@ronaldo13.fordnsdirect.shop:8880?type=grpc&mode=gun#%F0%9F%87%AE%F0%9F%87%B9%20Italy%20%7C%20Scaleway%203
+vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@ronaldo13.fordnsdirect.shop:8880?type=grpc&mode=gun#%F0%9F%87%AE%F0%9F%87%B9%20Italy%20%7C%20Scaleway%202
+vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@ronaldo15.fordnsdirect.shop:8880?type=grpc&mode=gun#%F0%9F%87%AE%F0%9F%87%B9%20Italy%20%7C%20Scaleway%203
