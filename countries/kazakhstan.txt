@@ -1,8 +1,0 @@
-#profile-update-interval: 1
-#profile-title: 🇰🇿 BobiVPN Kazakhstan
-#subscription-userinfo: upload=0; download=0; total=107374182400; expire=0
-#support-url: https://bobivpn.netlify.app/
-#profile-web-page-url: https://bobivpn.netlify.app/
-#announce: base64:8J+HsPCfh78gQm9iaVZQTiDigJQgS2F6YWtoc3RhbgrimqEgMSDQv9GA0L7QstC10YDQtdC90L3Ri9GFINGB0LXRgNCy0LXRgNC+0LI=
-
-vless://b573cefb-7bc7-4a42-b407-b8b534e66773@109.248.170.119:13447?type=tcp&security=reality&encryption=none&fp=chrome&pbk=_0wM2ep44eAcrgf5PflKaBivknCWT6kMvQBQUoScCkE&sid=83&sni=yahoo.com#%F0%9F%87%B0%F0%9F%87%BF%20Kazakhstan%20%7C%20PE%20Fedinyak%20Sergey%201

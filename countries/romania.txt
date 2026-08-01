@@ -5,4 +5,4 @@
 #profile-web-page-url: https://bobivpn.netlify.app/
 #announce: base64:8J+Ht/Cfh7QgQm9iaVZQTiDigJQgUm9tYW5pYQrimqEgMSDQv9GA0L7QstC10YDQtdC90L3Ri9GFINGB0LXRgNCy0LXRgNC+0LI=
 
-vless://bc5b801f-49a7-4db7-ac92-a2c57d42d132@93.114.194.114:448?type=tcp&security=reality&encryption=none&fp=chrome&pbk=qX6IJfWNN-SNray6xJugb8pCpgY_zjeyCfvq9IUyd3w&sid=e1bdc95c1554c8eb&sni=www.samsung.com#%F0%9F%87%B7%F0%9F%87%B4%20Romania%20%7C%20Interkvm%20Host%201
+vless://bc5b801f-49a7-4db7-ac92-a2c57d42d132@93.114.194.116:448?type=tcp&security=reality&encryption=none&fp=firefox&pbk=qX6IJfWNN-SNray6xJugb8pCpgY_zjeyCfvq9IUyd3w&sid=e1bdc95c1554c8eb&sni=www.samsung.com#%F0%9F%87%B7%F0%9F%87%B4%20Romania%20%7C%20Interkvm%20Host%201
