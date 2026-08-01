@@ -6,14 +6,14 @@
 #announce: base64:8J+HrvCfh7kgQm9iaVZQTiDigJQgSXRhbHkK4pqhIDEyINC/0YDQvtCy0LXRgNC10L3QvdGL0YUg0YHQtdGA0LLQtdGA0L7Qsg==
 
 ss://YWVzLTI1Ni1nY206UmV4bkJnVTdFVjVBRHhH@185.213.20.110:7001?#%F0%9F%87%AE%F0%9F%87%B9%20Italy%20%7C%20BrainStorm%20Network%201
-vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@151.115.164.117:8880?type=grpc#%F0%9F%87%AE%F0%9F%87%B9%20Italy%20%7C%20Scaleway%201
-vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@sca8.directdnsai.shop:8880?type=grpc&mode=gun&authority=BIA_TELEGRAM@MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI#%F0%9F%87%AE%F0%9F%87%B9%20Italy%20%7C%20Scaleway%202
-vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@ronaldo16.fordnsdirect.shop:8880?type=grpc#%F0%9F%87%AE%F0%9F%87%B9%20Italy%20%7C%20Scaleway%203
+vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@sca8.directdnsai.shop:8880?type=grpc&mode=gun&authority=BIA_TELEGRAM@MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI#%F0%9F%87%AE%F0%9F%87%B9%20Italy%20%7C%20Scaleway%201
+vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@151.115.164.43:8880?type=grpc&mode=gun#%F0%9F%87%AE%F0%9F%87%B9%20Italy%20%7C%20Scaleway%202
+vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@ronaldo13.fordnsdirect.shop:8880?type=grpc&mode=gun#%F0%9F%87%AE%F0%9F%87%B9%20Italy%20%7C%20Scaleway%203
 vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@ronaldo15.fordnsdirect.shop:8880?type=grpc&mode=gun#%F0%9F%87%AE%F0%9F%87%B9%20Italy%20%7C%20Scaleway%204
-vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@151.115.165.172:8880?type=grpc&mode=gun#%F0%9F%87%AE%F0%9F%87%B9%20Italy%20%7C%20Scaleway%205
-vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@151.115.164.43:8880?type=grpc&mode=gun#%F0%9F%87%AE%F0%9F%87%B9%20Italy%20%7C%20Scaleway%206
-vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@ronaldo37.fordnsdirect.shop:8880?type=grpc#%F0%9F%87%AE%F0%9F%87%B9%20Italy%20%7C%20Scaleway%207
-vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@ronaldo13.fordnsdirect.shop:8880?type=grpc&mode=gun#%F0%9F%87%AE%F0%9F%87%B9%20Italy%20%7C%20Scaleway%208
-vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@ronaldo17.fordnsdirect.shop:8880?type=grpc&mode=gun#%F0%9F%87%AE%F0%9F%87%B9%20Italy%20%7C%20Scaleway%209
-vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@sca38.speedmeter.shop:8880?type=grpc#%F0%9F%87%AE%F0%9F%87%B9%20Italy%20%7C%20Scaleway%2010
+vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@sca38.speedmeter.shop:8880?type=grpc#%F0%9F%87%AE%F0%9F%87%B9%20Italy%20%7C%20Scaleway%205
+vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@ronaldo37.fordnsdirect.shop:8880?type=grpc#%F0%9F%87%AE%F0%9F%87%B9%20Italy%20%7C%20Scaleway%206
+vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@ronaldo17.fordnsdirect.shop:8880?type=grpc&mode=gun#%F0%9F%87%AE%F0%9F%87%B9%20Italy%20%7C%20Scaleway%207
+vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@151.115.164.117:8880?type=grpc#%F0%9F%87%AE%F0%9F%87%B9%20Italy%20%7C%20Scaleway%208
+vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@ronaldo16.fordnsdirect.shop:8880?type=grpc#%F0%9F%87%AE%F0%9F%87%B9%20Italy%20%7C%20Scaleway%209
+vless://8dc7722c-2767-4eea-a28b-2f8daacc07e3@151.115.165.172:8880?type=grpc&mode=gun#%F0%9F%87%AE%F0%9F%87%B9%20Italy%20%7C%20Scaleway%2010
 vless://3ad1d277-5715-4ca1-84db-5baea72f822d@it1-akn.astralweb.tech:443?type=tcp&security=tls&encryption=none&fp=firefox&sni=it1-akn.astralweb.tech#%F0%9F%87%AE%F0%9F%87%B9%20Italy%20%7C%20Vladislav%20Nitsenko%201
