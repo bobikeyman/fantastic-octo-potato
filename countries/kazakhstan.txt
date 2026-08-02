@@ -3,8 +3,7 @@
 #subscription-userinfo: upload=0; download=0; total=107374182400; expire=0
 #support-url: https://bobivpn.netlify.app/
 #profile-web-page-url: https://bobivpn.netlify.app/
-#announce: base64:8J+HsPCfh78gQm9iaVZQTiDigJQgS2F6YWtoc3RhbgrimqEgMyDQv9GA0L7QstC10YDQtdC90L3Ri9GFINGB0LXRgNCy0LXRgNC+0LI=
+#announce: base64:8J+HsPCfh78gQm9iaVZQTiDigJQgS2F6YWtoc3RhbgrimqEgMiDQv9GA0L7QstC10YDQtdC90L3Ri9GFINGB0LXRgNCy0LXRgNC+0LI=
 
-vless://e6acf17c-b19c-45ee-afda-373ba72795ce@186.246.9.44:50056?type=grpc&security=reality&fp=firefox&pbk=yJBocmjwNjASYZkLpBTm6WObZpRBfHXNTjYbz3jHZn8&sid=25b79ebabb508860&sni=rubr5.cheburnetnastalgia1998.com#%F0%9F%87%B0%F0%9F%87%BF%20Kazakhstan%20%7C%20Cloudflare%201
-vless://e6acf17c-b19c-45ee-afda-373ba72795ce@rubr5.cheburnetnastalgia1998.com:50056?type=grpc&security=reality&fp=firefox&pbk=yJBocmjwNjASYZkLpBTm6WObZpRBfHXNTjYbz3jHZn8&sid=25b79ebabb508860&sni=rubr5.cheburnetnastalgia1998.com#%F0%9F%87%B0%F0%9F%87%BF%20Kazakhstan%20%7C%20Cloudflare%202
-vless://c46e2605-be24-4555-b7db-0fc6773ad004@91.217.10.163:443?security=reality&type=tcp&sni=yahoo.com&fp=firefox&flow=xtls-rprx-vision&pbk=CC8vVe5trg8COtHkcR-cC3rl7hJh-Tr0RI5KmzzBNWo&encryption=none#%F0%9F%87%B0%F0%9F%87%BF%20Kazakhstan%20%7C%20Newserverlife%201
+vless://e6acf17c-b19c-45ee-afda-373ba72795ce@rubr5.cheburnetnastalgia1998.com:50056?type=grpc&security=reality&fp=firefox&pbk=yJBocmjwNjASYZkLpBTm6WObZpRBfHXNTjYbz3jHZn8&sid=25b79ebabb508860&sni=rubr5.cheburnetnastalgia1998.com#%F0%9F%87%B0%F0%9F%87%BF%20Kazakhstan%20%7C%20Cloudflare%201
+vless://6fdfdb73-51b0-4a14-89a5-c9355a0e0397@178.236.17.86:443?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=vCxfuNNmogA1DlPkjvmKb7_hSgXqe4MboPfi2s1JZG0&sid=b318242471ba4f5b&sni=google.com&path=/#%F0%9F%87%B0%F0%9F%87%BF%20Kazakhstan%20%7C%20NLS%20ASTANA%20LLP%201
