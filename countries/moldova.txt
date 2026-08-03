@@ -5,5 +5,5 @@
 #profile-web-page-url: https://bobivpn.netlify.app/
 #announce: base64:8J+HsvCfh6kgQm9iaVZQTiDigJQgTW9sZG92YQrimqEgMiDQv9GA0L7QstC10YDQtdC90L3Ri9GFINGB0LXRgNCy0LXRgNC+0LI=
 
-vless://a5ea9247-79f3-4655-aece-3fb51e1e669e@rezerv23.yunus.guru:443?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=zT7a-PnmIWP4c-G1EDUT3KZ7URi1kc8EppAWPr3h5lk&sid=afeed89ae23b36ed&sni=rezerv23.yunus.guru#%F0%9F%87%B2%F0%9F%87%A9%20Moldova%20%7C%20Alexhost%201
-vless://a5ea9247-79f3-4655-aece-3fb51e1e669e@176.123.2.210:443?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=zT7a-PnmIWP4c-G1EDUT3KZ7URi1kc8EppAWPr3h5lk&sid=afeed89ae23b36ed&sni=rezerv23.yunus.guru#%F0%9F%87%B2%F0%9F%87%A9%20Moldova%20%7C%20Alexhost%202
+vless://a5ea9247-79f3-4655-aece-3fb51e1e669e@176.123.2.210:443?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=zT7a-PnmIWP4c-G1EDUT3KZ7URi1kc8EppAWPr3h5lk&sid=afeed89ae23b36ed&sni=rezerv23.yunus.guru#%F0%9F%87%B2%F0%9F%87%A9%20Moldova%20%7C%20Alexhost%201
+vless://a5ea9247-79f3-4655-aece-3fb51e1e669e@rezerv23.yunus.guru:443?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=zT7a-PnmIWP4c-G1EDUT3KZ7URi1kc8EppAWPr3h5lk&sid=afeed89ae23b36ed&sni=rezerv23.yunus.guru#%F0%9F%87%B2%F0%9F%87%A9%20Moldova%20%7C%20Alexhost%202

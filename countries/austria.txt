@@ -5,9 +5,9 @@
 #profile-web-page-url: https://bobivpn.netlify.app/
 #announce: base64:8J+HpvCfh7kgQm9iaVZQTiDigJQgQXVzdHJpYQrimqEgNiDQv9GA0L7QstC10YDQtdC90L3Ri9GFINGB0LXRgNCy0LXRgNC+0LI=
 
-vless://04b3ed78-61b5-42bb-9143-eeb70e64b5aa@87.228.101.30:443?type=xhttp&security=tls&sni=media-ru3.lbdnetwork.com&path=/api/&mode=auto#%F0%9F%87%A6%F0%9F%87%B9%20Austria%20%7C%20ANX%201
-vless://ab7d5ea9-6eca-47c3-b14b-67378fc2d7c2@as.tunnelx.space:443?type=xhttp&security=tls&fp=firefox&sni=as.tunnelx.space&path=/assets&mode=auto#%F0%9F%87%A6%F0%9F%87%B9%20Austria%20%7C%20Cloudflare%201
-vless://ab7d5ea9-6eca-47c3-b14b-67378fc2d7c2@152.53.114.186:443?type=xhttp&security=tls&fp=firefox&sni=as.tunnelx.space&path=/assets&mode=auto#%F0%9F%87%A6%F0%9F%87%B9%20Austria%20%7C%20Cloudflare%202
+vless://ab7d5ea9-6eca-47c3-b14b-67378fc2d7c2@152.53.114.186:443?type=xhttp&security=tls&fp=firefox&sni=as.tunnelx.space&path=/assets&mode=auto#%F0%9F%87%A6%F0%9F%87%B9%20Austria%20%7C%20Cloudflare%201
+vless://ab7d5ea9-6eca-47c3-b14b-67378fc2d7c2@152.53.114.186:443?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=UO3EObgU3xUrhIGEE0gfCn5ZOz8YxNcwwW6ZaYzD3SA&sid=4e9b0c2d1a3f5768&sni=as.tunnelx.space#%F0%9F%87%A6%F0%9F%87%B9%20Austria%20%7C%20Cloudflare%202
 vless://ab7d5ea9-6eca-47c3-b14b-67378fc2d7c2@as.tunnelx.space:443?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=UO3EObgU3xUrhIGEE0gfCn5ZOz8YxNcwwW6ZaYzD3SA&sid=4e9b0c2d1a3f5768&sni=as.tunnelx.space#%F0%9F%87%A6%F0%9F%87%B9%20Austria%20%7C%20Cloudflare%203
-vless://ab7d5ea9-6eca-47c3-b14b-67378fc2d7c2@152.53.114.186:443?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=UO3EObgU3xUrhIGEE0gfCn5ZOz8YxNcwwW6ZaYzD3SA&sid=4e9b0c2d1a3f5768&sni=as.tunnelx.space#%F0%9F%87%A6%F0%9F%87%B9%20Austria%20%7C%20Cloudflare%204
+vless://ab7d5ea9-6eca-47c3-b14b-67378fc2d7c2@as.tunnelx.space:443?type=xhttp&security=tls&fp=firefox&sni=as.tunnelx.space&path=/assets&mode=auto#%F0%9F%87%A6%F0%9F%87%B9%20Austria%20%7C%20Cloudflare%204
+vless://1bfd045c-3c64-4f27-874f-8e0b9da23fc8@130.49.219.126:443?type=raw&security=reality&flow=xtls-rprx-vision&fp=chrome&pbk=fp_r7Tz3YdOZUY1wmo21U5xAoqyhHhb8l0q-py3JARo&sid=f5e89824&sni=sun6-22.userapi.com#%F0%9F%87%A6%F0%9F%87%B9%20Austria%20%7C%20Connectivity%20LLP%201
 vless://94d2d711-76e5-4d82-a3c9-4f06fd5558c8@67.159.17.223:443?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=ukD87Vk-vZlpFizTh-zSjst2lEN39Cfyjd4mNiu2CS0&sid=825d392c67e4&sni=au.musicwave.net#%F0%9F%87%A6%F0%9F%87%B9%20Austria%20%7C%20FDCservers.net%201
