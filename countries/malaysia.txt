@@ -1,8 +1,0 @@
-#profile-update-interval: 1
-#profile-title: 🇲🇾 BobiVPN Malaysia
-#subscription-userinfo: upload=0; download=0; total=107374182400; expire=0
-#support-url: https://bobivpn.netlify.app/
-#profile-web-page-url: https://bobivpn.netlify.app/
-#announce: base64:8J+HsvCfh74gQm9iaVZQTiDigJQgTWFsYXlzaWEK4pqhIDEg0L/RgNC+0LLQtdGA0LXQvdC90YvRhSDRgdC10YDQstC10YDQvtCy
-
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToyODc4OTk4OC04ODdlLTRlNDEtODNjZC0yN2JiZmI3OTk5YWQ@xunlinknode.csdjhajkshdjkas.com:40006?#%F0%9F%87%B2%F0%9F%87%BE%20Malaysia%20%7C%20Perfect%20Sdn%20Bhd%201
