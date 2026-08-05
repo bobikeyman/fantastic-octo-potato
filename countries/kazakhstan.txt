@@ -5,4 +5,4 @@
 #profile-web-page-url: https://bobivpn.netlify.app/
 #announce: base64:8J+HsPCfh78gQm9iaVZQTiDigJQgS2F6YWtoc3RhbgrimqEgMSDQv9GA0L7QstC10YDQtdC90L3Ri9GFINGB0LXRgNCy0LXRgNC+0LI=
 
-vless://6fdfdb73-51b0-4a14-89a5-c9355a0e0397@178.236.17.86:443?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=vCxfuNNmogA1DlPkjvmKb7_hSgXqe4MboPfi2s1JZG0&sid=b318242471ba4f5b&sni=google.com#%F0%9F%87%B0%F0%9F%87%BF%20Kazakhstan%20%7C%20NLS%20ASTANA%20LLP%201
+vless://c9cbfe43-4087-4069-8bca-225f9a26a94f@38.180.37.243:48905?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=XIubADu7punjUa2oUfHj2vTmUzUJXN_xDrGsmf_LslY&sni=creators.radeon.com#%F0%9F%87%B0%F0%9F%87%BF%20Kazakhstan%20%7C%20Scalaxy%201
