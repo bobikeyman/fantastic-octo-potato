@@ -3,19 +3,16 @@
 #subscription-userinfo: upload=0; download=0; total=107374182400; expire=0
 #support-url: https://bobivpn.netlify.app/
 #profile-web-page-url: https://bobivpn.netlify.app/
-#announce: base64:8J+HrfCfh7AgQm9iaVZQTiDigJQgSG9uZyBLb25nCuKaoSAxNCDQv9GA0L7QstC10YDQtdC90L3Ri9GFINGB0LXRgNCy0LXRgNC+0LI=
+#announce: base64:8J+HrfCfh7AgQm9iaVZQTiDigJQgSG9uZyBLb25nCuKaoSAxMSDQv9GA0L7QstC10YDQtdC90L3Ri9GFINGB0LXRgNCy0LXRgNC+0LI=
 
-vless://0b9bcbc1-b289-4a64-86fa-a5b731b65384@hk.vrsvpn.com:444?type=grpc&security=reality&fp=chrome&pbk=lxq7uAa7l0ozobBgTRrQIF_aCxDeJqZZFaNv8CFA9TQ&sid=8622176789abcdef&sni=web.max.ru&mode=gun&serviceName=web.max.ru#%F0%9F%87%AD%F0%9F%87%B0%20Hong%20Kong%20%7C%20Dedik%20Services%201
-vless://0b9bcbc1-b289-4a64-86fa-a5b731b65384@85.11.161.8:444?type=grpc&security=reality&fp=firefox&pbk=lxq7uAa7l0ozobBgTRrQIF_aCxDeJqZZFaNv8CFA9TQ&sid=8622176789abcdef&sni=web.max.ru&serviceName=web.max.ru#%F0%9F%87%AD%F0%9F%87%B0%20Hong%20Kong%20%7C%20Dedik%20Services%202
-vless://0b9bcbc1-b289-4a64-86fa-a5b731b65384@hk.vrsvpn.com:444?type=grpc&security=reality&fp=chrome&pbk=lxq7uAa7l0ozobBgTRrQIF_aCxDeJqZZFaNv8CFA9TQ&sid=8622176789abcdef&sni=web.max.ru&serviceName=web.max.ru#%F0%9F%87%AD%F0%9F%87%B0%20Hong%20Kong%20%7C%20Dedik%20Services%203
-vless://0b9bcbc1-b289-4a64-86fa-a5b731b65384@85.11.161.8:444?type=grpc&security=reality&fp=firefox&pbk=lxq7uAa7l0ozobBgTRrQIF_aCxDeJqZZFaNv8CFA9TQ&sid=8622176789abcdef&sni=web.max.ru&mode=gun&serviceName=web.max.ru#%F0%9F%87%AD%F0%9F%87%B0%20Hong%20Kong%20%7C%20Dedik%20Services%204
+ss://YWVzLTI1Ni1nY206NzI1NTMzMjBhZTZiY2M4Zg@212.192.15.33:10910?#%F0%9F%87%AD%F0%9F%87%B0%20Hong%20Kong%20%7C%20Baxet%20Group%201
+trojan://87961f9d-bee1-4377-826b-e169e7891c4f@xn--b6gac.eu.org:443?security=tls&sni=yks-dd9.pages.dev&type=ws&Host=yks-dd9.pages.dev#%F0%9F%87%AD%F0%9F%87%B0%20Hong%20Kong%20%7C%20Binary%201
 trojan://ND91608427@ace-starling.rooster465.autos:443?security=tls&sni=ace-starling.rooster465.autos#%F0%9F%87%AD%F0%9F%87%B0%20Hong%20Kong%20%7C%20G-Core%20Labs%201
-trojan://ND91608427@dynamic-grubworm.rooster465.autos:443?security=tls&sni=dynamic-grubworm.rooster465.autos#%F0%9F%87%AD%F0%9F%87%B0%20Hong%20Kong%20%7C%20G-Core%20Labs%202
+trojan://ND91608427@185.244.208.13:443?security=tls&sni=ace-starling.rooster465.autos&path=/#%F0%9F%87%AD%F0%9F%87%B0%20Hong%20Kong%20%7C%20G-Core%20Labs%202
 trojan://ND91608427@upright-hamster.rooster465.autos:443?security=tls&sni=upright-hamster.rooster465.autos#%F0%9F%87%AD%F0%9F%87%B0%20Hong%20Kong%20%7C%20G-Core%20Labs%203
-vless://863473c2-99e3-4444-a4c9-665ec86757f1@141.11.76.57:21001?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=HWUNFHoOryJHQXKF-ZOm6wMYZdVJwH5aHGa5I9_HDGA&sid=dfa28122&sni=itunes.apple.com#%F0%9F%87%AD%F0%9F%87%B0%20Hong%20Kong%20%7C%20Lshiy%201
-vless://1560c7cd-600b-424b-ad99-f47cad3bea6a@141.11.76.57:21001?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=HWUNFHoOryJHQXKF-ZOm6wMYZdVJwH5aHGa5I9_HDGA&sid=dfa28122&sni=itunes.apple.com#%F0%9F%87%AD%F0%9F%87%B0%20Hong%20Kong%20%7C%20Lshiy%202
-vless://6bf7d47a-db65-4ad5-a5ea-5df916b7e41b@141.11.76.57:21001?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=HWUNFHoOryJHQXKF-ZOm6wMYZdVJwH5aHGa5I9_HDGA&sid=dfa28122&sni=itunes.apple.com#%F0%9F%87%AD%F0%9F%87%B0%20Hong%20Kong%20%7C%20Lshiy%203
-vless://74199cb4-6d12-404a-9529-14de3bffec9c@fv2026.node2.top:21001?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=HWUNFHoOryJHQXKF-ZOm6wMYZdVJwH5aHGa5I9_HDGA&sid=dfa28122&sni=itunes.apple.com#%F0%9F%87%AD%F0%9F%87%B0%20Hong%20Kong%20%7C%20Lshiy%204
+trojan://ND91608427@dynamic-grubworm.rooster465.autos:443?security=tls&sni=dynamic-grubworm.rooster465.autos#%F0%9F%87%AD%F0%9F%87%B0%20Hong%20Kong%20%7C%20G-Core%20Labs%204
+trojan://ND91608427@91.199.84.120:443?security=tls&sni=dynamic-grubworm.rooster465.autos&path=/#%F0%9F%87%AD%F0%9F%87%B0%20Hong%20Kong%20%7C%20G-Core%20Labs%205
+trojan://87961f9d-bee1-4377-826b-e169e7891c4f@104.21.84.3:443?type=ws&security=tls&sni=yks-dd9.pages.dev#%F0%9F%87%AD%F0%9F%87%B0%20Hong%20Kong%20%7C%20Hong%20Kong%201
+vless://6bf7d47a-db65-4ad5-a5ea-5df916b7e41b@141.11.76.57:21001?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=HWUNFHoOryJHQXKF-ZOm6wMYZdVJwH5aHGa5I9_HDGA&sid=dfa28122&sni=itunes.apple.com#%F0%9F%87%AD%F0%9F%87%B0%20Hong%20Kong%20%7C%20Lshiy%201
 vless://9c64064c-aaaf-449f-9344-77632fc9ff1c@38.207.177.236:443?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=maES4RMEtsm5emBCixDRa6Y5GvmVwmwZNBL2G4Q03D4&sid=47de54e71fee3451&sni=www.cloudflare.com&spx=/#%F0%9F%87%AD%F0%9F%87%B0%20Hong%20Kong%20%7C%20Lucidacloud%201
 vless://2aa2be33-b987-461e-8d0e-2ffe15cb8e4c@141.11.149.200:11650?type=raw#%F0%9F%87%AD%F0%9F%87%B0%20Hong%20Kong%20%7C%20NET6-AS61112%201
-trojan://87961f9d-bee1-4377-826b-e169e7891c4f@xn--b6gac.eu.org:443?security=tls&sni=yks-dd9.pages.dev&type=ws&Host=yks-dd9.pages.dev#%F0%9F%87%AD%F0%9F%87%B0%20Hong%20Kong%20%7C%20PCCW%20IMS%201
