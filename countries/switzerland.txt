@@ -3,7 +3,6 @@
 #subscription-userinfo: upload=0; download=0; total=107374182400; expire=0
 #support-url: https://bobivpn.netlify.app/
 #profile-web-page-url: https://bobivpn.netlify.app/
-#announce: base64:8J+HqPCfh60gQm9iaVZQTiDigJQgU3dpdHplcmxhbmQK4pqhIDIg0L/RgNC+0LLQtdGA0LXQvdC90YvRhSDRgdC10YDQstC10YDQvtCy
+#announce: base64:8J+HqPCfh60gQm9iaVZQTiDigJQgU3dpdHplcmxhbmQK4pqhIDEg0L/RgNC+0LLQtdGA0LXQvdC90YvRhSDRgdC10YDQstC10YDQvtCy
 
-vless://c877d001-de9f-43d4-87c0-b7474a662424@179.237.76.191:2020?type=tcp&security=reality&encryption=none&fp=chrome&pbk=qhizbkaunsBTS7KH4ctsyxQBapZ3Qj5Y7Jr6J2r0HAU&sid=b9fbd4c6&sni=g.co&spx=/54510860ea05bff#%F0%9F%87%A8%F0%9F%87%AD%20Switzerland%20%7C%20Infomaniak%20Network%201
-vless://2a77a470-315c-493d-b690-59b814a804cb@178.83.226.55:443?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&sni=sellflow.org&path=/#%F0%9F%87%A8%F0%9F%87%AD%20Switzerland%20%7C%20Ultahost%201
+vless://2a77a470-315c-493d-b690-59b814a804cb@178.83.226.55:443?type=raw&security=reality&flow=xtls-rprx-vision&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&sni=sellflow.org#%F0%9F%87%A8%F0%9F%87%AD%20Switzerland%20%7C%20Ultahost%201
