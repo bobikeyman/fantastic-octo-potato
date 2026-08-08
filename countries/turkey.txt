@@ -5,8 +5,8 @@
 #profile-web-page-url: https://bobivpn.netlify.app/
 #announce: base64:8J+HufCfh7cgQm9iaVZQTiDigJQgVHVya2V5CuKaoSA2INC/0YDQvtCy0LXRgNC10L3QvdGL0YUg0YHQtdGA0LLQtdGA0L7Qsg==
 
-vless://7e8f7489-e65f-4be6-93ed-867a74ec6759@185.39.204.155:8443?type=grpc&serviceName=grpc#%F0%9F%87%B9%F0%9F%87%B7%20Turkey%20%7C%20Connectivity%20LLP%201
-vless://7e8f7489-e65f-4be6-93ed-867a74ec6759@185.39.204.155:8443?type=grpc&mode=gun&serviceName=grpc#%F0%9F%87%B9%F0%9F%87%B7%20Turkey%20%7C%20Connectivity%20LLP%202
+vless://7e8f7489-e65f-4be6-93ed-867a74ec6759@185.39.204.155:8443?type=grpc&mode=gun&serviceName=grpc#%F0%9F%87%B9%F0%9F%87%B7%20Turkey%20%7C%20Connectivity%20LLP%201
+vless://7e8f7489-e65f-4be6-93ed-867a74ec6759@185.39.204.155:8443?type=grpc&serviceName=grpc#%F0%9F%87%B9%F0%9F%87%B7%20Turkey%20%7C%20Connectivity%20LLP%202
 vless://06d44c57-8e1a-41f4-b9c4-65d35869e078@62.133.63.202:13868?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=chrome&pbk=FaX6hUpswBFFN-GaXFmFK8bVWYcPlrB4KP26n_INgko&sid=e852dc&sni=amd.com#%F0%9F%87%B9%F0%9F%87%B7%20Turkey%20%7C%20Connectivity%20LLP%203
 vless://c04bf2df-2b7f-44da-a893-3792d3910fd8@62.133.63.202:13868?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=FaX6hUpswBFFN-GaXFmFK8bVWYcPlrB4KP26n_INgko&sid=e852dc&sni=amd.com#%F0%9F%87%B9%F0%9F%87%B7%20Turkey%20%7C%20Connectivity%20LLP%204
 vless://06d44c57-8e1a-41f4-b9c4-65d35869e078@tur03.skorostnet.space:13868?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=FaX6hUpswBFFN-GaXFmFK8bVWYcPlrB4KP26n_INgko&sid=e852dc&sni=amd.com#%F0%9F%87%B9%F0%9F%87%B7%20Turkey%20%7C%20Connectivity%20LLP%205
