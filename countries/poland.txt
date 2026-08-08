@@ -3,17 +3,22 @@
 #subscription-userinfo: upload=0; download=0; total=107374182400; expire=0
 #support-url: https://bobivpn.netlify.app/
 #profile-web-page-url: https://bobivpn.netlify.app/
-#announce: base64:8J+HtfCfh7EgQm9iaVZQTiDigJQgUG9sYW5kCuKaoSAxMiDQv9GA0L7QstC10YDQtdC90L3Ri9GFINGB0LXRgNCy0LXRgNC+0LI=
+#announce: base64:8J+HtfCfh7EgQm9iaVZQTiDigJQgUG9sYW5kCuKaoSAxNyDQv9GA0L7QstC10YDQtdC90L3Ri9GFINGB0LXRgNCy0LXRgNC+0LI=
 
 vless://06d44c57-8e1a-41f4-b9c4-65d35869e078@78.17.109.126:13868?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=YxGdcVKnOjKUtaG-E68lzI_rd9DI5RvsbLY0qyMFX2w&sid=e852dc&sni=wp.pl#%F0%9F%87%B5%F0%9F%87%B1%20Poland%20%7C%20Artnet%20z%20o.o%201
+vless://41784775-8846-4579-9d9d-9ad6ea802e2e@188.119.123.112:49001?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=_LbLyj6OynSREglFpkhdrxVmh_bf9p60uTEWfQbtUWo&sid=1a6b1f9d0e&sni=de-7.techprovide.icu#%F0%9F%87%B5%F0%9F%87%B1%20Poland%20%7C%20BlueVPS%20OU%201
 ss://YWVzLTI1Ni1nY206WTZSOXBBdHZ4eHptR0M=@92.118.205.211:5600?#%F0%9F%87%B5%F0%9F%87%B1%20Poland%20%7C%20BrainStorm%20Network%201
 vless://b94da146-a56e-49d7-af4c-a68c9065cbfd@50.7.248.74:8180?type=grpc&security=tls&fp=firefox&sni=vpnforppl.top&serviceName=media.playback.v1.SessionGateway#%F0%9F%87%B5%F0%9F%87%B1%20Poland%20%7C%20FDCservers.net%201
-trojan://ND91608427@discrete-basilisk.rooster465.autos:443?sni=discrete-basilisk.rooster465.autos&path=/#%F0%9F%87%B5%F0%9F%87%B1%20Poland%20%7C%20G-Core%20Labs%201
-trojan://ND91608427@202.78.163.248:443?sni=relaxed-gull.rooster465.autos&path=/#%F0%9F%87%B5%F0%9F%87%B1%20Poland%20%7C%20G-Core%20Labs%202
-trojan://ND91608427@202.78.163.148:443?allowInsecure=1&sni=discrete-basilisk.rooster465.autos#%F0%9F%87%B5%F0%9F%87%B1%20Poland%20%7C%20G-Core%20Labs%203
-trojan://ND91608427@relaxed-gull.rooster465.autos:443?security=tls&sni=relaxed-gull.rooster465.autos#%F0%9F%87%B5%F0%9F%87%B1%20Poland%20%7C%20G-Core%20Labs%204
+trojan://ND91608427@202.78.163.248:443?fp=chrome&sni=relaxed-gull.rooster465.autos#%F0%9F%87%B5%F0%9F%87%B1%20Poland%20%7C%20G-Core%20Labs%201
+trojan://ND91608427@202.78.163.148:443?sni=discrete-basilisk.rooster465.autos&path=/#%F0%9F%87%B5%F0%9F%87%B1%20Poland%20%7C%20G-Core%20Labs%202
+trojan://ND91608427@discrete-basilisk.rooster465.autos:443?allowInsecure=1&sni=discrete-basilisk.rooster465.autos#%F0%9F%87%B5%F0%9F%87%B1%20Poland%20%7C%20G-Core%20Labs%203
+trojan://ND91608427@relaxed-gull.rooster465.autos:443?type=raw&security=tls&sni=relaxed-gull.rooster465.autos#%F0%9F%87%B5%F0%9F%87%B1%20Poland%20%7C%20G-Core%20Labs%204
 vless://b406bc51-9002-474c-beae-b194b02c91da@144.31.131.241:8443?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=J5ITJbg5FQFembAfkogKHHQB6DigsFXQxK7xu-QMWUs&sid=a20d3ed244c76426&sni=mold.speedload.online#%F0%9F%87%B5%F0%9F%87%B1%20Poland%20%7C%20H2nexus%201
-vless://c5c55441-6b1d-4a44-aa35-da5a015e7df9@193.247.82.92:443?type=xhttp&security=tls&fp=firefox&sni=pla.tunnelguard.ru&mode=auto#%F0%9F%87%B5%F0%9F%87%B1%20Poland%20%7C%20Hostkey%201
-vless://c5c55441-6b1d-4a44-aa35-da5a015e7df9@193.247.82.92:443?type=xhttp&security=tls&fp=firefox&sni=pla.tunnelguard.ru#%F0%9F%87%B5%F0%9F%87%B1%20Poland%20%7C%20Hostkey%202
-vless://da4747a6-be0d-4c1b-90f4-d82ec3012be2@104.18.1.1:2053?type=ws&security=tls&fp=ios&sni=music1000.melobitmusic1.ir#%F0%9F%87%B5%F0%9F%87%B1%20Poland%20%7C%20OVH%201
-vless://da4747a6-be0d-4c1b-90f4-d82ec3012be2@104.21.35.235:2053?type=ws&security=tls&fp=chrome&sni=music1000.melobitmusic1.ir&packetEncoding=none#%F0%9F%87%B5%F0%9F%87%B1%20Poland%20%7C%20OVH%202
+vless://c5c55441-6b1d-4a44-aa35-da5a015e7df9@193.247.82.92:443?type=xhttp&security=tls&fp=firefox&sni=pla.tunnelguard.ru#%F0%9F%87%B5%F0%9F%87%B1%20Poland%20%7C%20Hostkey%201
+vless://c5c55441-6b1d-4a44-aa35-da5a015e7df9@193.247.82.92:443?type=xhttp&security=tls&fp=firefox&sni=pla.tunnelguard.ru&mode=auto#%F0%9F%87%B5%F0%9F%87%B1%20Poland%20%7C%20Hostkey%202
+vless://a34b5e88-cf0d-4c01-8199-2d1002d3c787@meow-warsaw.nethcloud.top:8443?type=xhttp&security=reality&fp=chrome&pbk=p9ISfhV0uZpKSgrK_8R6Mm4A01tWdzpKMlFR2TIj81s&sni=wikihow.com&mode=auto#%F0%9F%87%B5%F0%9F%87%B1%20Poland%20%7C%20OC%20NETWORKS%201
+vless://a34b5e88-cf0d-4c01-8199-2d1002d3c787@meow-warsaw.nethcloud.top:443?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=HKpd1sbrhBds8SJSL0d22MAq_QyTR6EP6y5b5DYol3U&sni=www.wikihow.com#%F0%9F%87%B5%F0%9F%87%B1%20Poland%20%7C%20OC%20NETWORKS%202
+vless://da4747a6-be0d-4c1b-90f4-d82ec3012be2@music1000.melobitmusic1.ir:2053?type=ws&security=tls&fp=chrome&sni=music1000.melobitmusic1.ir#%F0%9F%87%B5%F0%9F%87%B1%20Poland%20%7C%20OVH%201
+vless://da4747a6-be0d-4c1b-90f4-d82ec3012be2@104.18.1.1:2053?type=ws&security=tls&fp=ios&sni=music1000.melobitmusic1.ir#%F0%9F%87%B5%F0%9F%87%B1%20Poland%20%7C%20OVH%202
+vless://da4747a6-be0d-4c1b-90f4-d82ec3012be2@104.21.35.235:2053?type=ws&security=tls&fp=chrome&sni=music1000.melobitmusic1.ir&packetEncoding=none#%F0%9F%87%B5%F0%9F%87%B1%20Poland%20%7C%20OVH%203
+vless://da4747a6-be0d-4c1b-90f4-d82ec3012be2@172.67.180.173:2053?type=ws&security=tls&fp=chrome&sni=music1000.melobitmusic1.ir#%F0%9F%87%B5%F0%9F%87%B1%20Poland%20%7C%20OVH%204

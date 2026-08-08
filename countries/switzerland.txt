@@ -6,5 +6,5 @@
 #announce: base64:8J+HqPCfh60gQm9iaVZQTiDigJQgU3dpdHplcmxhbmQK4pqhIDMg0L/RgNC+0LLQtdGA0LXQvdC90YvRhSDRgdC10YDQstC10YDQvtCy
 
 vless://bd9ff08b-d042-3650-48e4-c4b400000000@104.21.117.9:443?type=ws&security=tls&fp=chrome&sni=netlivpn2950.bbxff.workers.dev#%F0%9F%87%A8%F0%9F%87%AD%20Switzerland%20%7C%20HostHatch%201
-vless://ed2f2ae0-b897-45fe-9807-acabcff4371a@37.156.47.242:8080?type=tcp&security=reality&encryption=none&fp=chrome&pbk=MYlH37mavAUEvPJJFGgdLvAytETP0CuXq0_iO7WNO1U&sid=b292f6488eae95ae&sni=mbp.yimg.com&spx=/a80bc758af3f28f#%F0%9F%87%A8%F0%9F%87%AD%20Switzerland%20%7C%20Infomaniak%20Network%201
+vless://ed2f2ae0-b897-45fe-9807-acabcff4371a@37.156.47.242:8080?type=tcp&security=reality&encryption=none&fp=firefox&pbk=MYlH37mavAUEvPJJFGgdLvAytETP0CuXq0_iO7WNO1U&sid=b292f6488eae95ae&sni=mbp.yimg.com&spx=/a80bc758af3f28f#%F0%9F%87%A8%F0%9F%87%AD%20Switzerland%20%7C%20Infomaniak%20Network%201
 vless://2a77a470-315c-493d-b690-59b814a804cb@178.83.226.55:443?type=tcp&security=reality&encryption=none&flow=xtls-rprx-vision&fp=firefox&pbk=SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc&sni=sellflow.org#%F0%9F%87%A8%F0%9F%87%AD%20Switzerland%20%7C%20Ultahost%201
