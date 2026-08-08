@@ -5,8 +5,8 @@
 #profile-web-page-url: https://bobivpn.netlify.app/
 #announce: base64:8J+Ht/Cfh7QgQm9iaVZQTiDigJQgUm9tYW5pYQrimqEgNSDQv9GA0L7QstC10YDQtdC90L3Ri9GFINGB0LXRgNCy0LXRgNC+0LI=
 
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpRRld6Q3cydVg5QjlpNnFBWWVGQklF@154.46.31.106:443?#%F0%9F%87%B7%F0%9F%87%B4%20Romania%20%7C%20Dotro%20Telecom%201
-ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpRRld6Q3cydVg5QjlpNnFBWWVGQklF@bogging-eyeteeth-fly.freesocks.work:443?#%F0%9F%87%B7%F0%9F%87%B4%20Romania%20%7C%20Dotro%20Telecom%202
-vless://bc5b801f-49a7-4db7-ac92-a2c57d42d132@93.114.194.114:448?type=tcp&security=reality&encryption=none&fp=firefox&pbk=qX6IJfWNN-SNray6xJugb8pCpgY_zjeyCfvq9IUyd3w&sid=e1bdc95c1554c8eb&sni=www.samsung.com#%F0%9F%87%B7%F0%9F%87%B4%20Romania%20%7C%20Interkvm%20Host%201
-vless://bc5b801f-49a7-4db7-ac92-a2c57d42d132@93.114.194.116:448?type=tcp&security=reality&encryption=none&fp=chrome&pbk=qX6IJfWNN-SNray6xJugb8pCpgY_zjeyCfvq9IUyd3w&sid=e1bdc95c1554c8eb&sni=www.samsung.com#%F0%9F%87%B7%F0%9F%87%B4%20Romania%20%7C%20Interkvm%20Host%202
-vless://bc5b801f-49a7-4db7-ac92-a2c57d42d132@93.114.194.120:448?type=tcp&security=reality&encryption=none&fp=firefox&pbk=qX6IJfWNN-SNray6xJugb8pCpgY_zjeyCfvq9IUyd3w&sid=e1bdc95c1554c8eb&sni=www.samsung.com#%F0%9F%87%B7%F0%9F%87%B4%20Romania%20%7C%20Interkvm%20Host%203
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpRRld6Q3cydVg5QjlpNnFBWWVGQklF@bogging-eyeteeth-fly.freesocks.work:443?#%F0%9F%87%B7%F0%9F%87%B4%20Romania%20%7C%20Dotro%20Telecom%201
+ss://Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpRRld6Q3cydVg5QjlpNnFBWWVGQklF@154.46.31.106:443?#%F0%9F%87%B7%F0%9F%87%B4%20Romania%20%7C%20Dotro%20Telecom%202
+vless://bc5b801f-49a7-4db7-ac92-a2c57d42d132@93.114.194.115:448?type=tcp&security=reality&encryption=none&fp=chrome&pbk=qX6IJfWNN-SNray6xJugb8pCpgY_zjeyCfvq9IUyd3w&sid=e1bdc95c1554c8eb&sni=www.samsung.com#%F0%9F%87%B7%F0%9F%87%B4%20Romania%20%7C%20Interkvm%20Host%201
+vless://bc5b801f-49a7-4db7-ac92-a2c57d42d132@93.114.194.114:448?type=tcp&security=reality&encryption=none&fp=firefox&pbk=qX6IJfWNN-SNray6xJugb8pCpgY_zjeyCfvq9IUyd3w&sid=e1bdc95c1554c8eb&sni=www.samsung.com#%F0%9F%87%B7%F0%9F%87%B4%20Romania%20%7C%20Interkvm%20Host%202
+vless://bc5b801f-49a7-4db7-ac92-a2c57d42d132@93.114.194.116:448?type=tcp&security=reality&encryption=none&fp=chrome&pbk=qX6IJfWNN-SNray6xJugb8pCpgY_zjeyCfvq9IUyd3w&sid=e1bdc95c1554c8eb&sni=www.samsung.com#%F0%9F%87%B7%F0%9F%87%B4%20Romania%20%7C%20Interkvm%20Host%203
